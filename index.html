@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="sr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/">
+  <title>AIRS — AI Rights Shield za nezavisne umetnike</title>
+  <meta name="description" content="Besplatan, praktičan set alata za nezavisne umetnike, muzičare, pisce i dizajnere u Srbiji koji se suočavaju sa AI autorskim rizicima.">
+
+  <!-- SEO / Open Graph -->
+  <meta property="og:title"       content="AIRS — AI Rights Shield">
+  <meta property="og:description" content="Besplatan, praktičan set alata za nezavisne umetnike u Srbiji.">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://airs-app.kreativalab.org/">
+  <meta property="og:locale"      content="sr_RS">
+
+  <!-- hreflang for all three variants -->
+  <link rel="alternate" hreflang="en"     href="https://airs-app.kreativalab.org/en/">
+  <link rel="alternate" hreflang="sr"     href="https://airs-app.kreativalab.org/sr-lat/">
+  <link rel="alternate" hreflang="sr-Cyrl" href="https://airs-app.kreativalab.org/sr-cyr/">
+  <link rel="alternate" hreflang="x-default" href="https://airs-app.kreativalab.org/">
+
+  <link rel="canonical" href="https://airs-app.kreativalab.org/">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- jsPDF from CDN — for Policy Brief PDF export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- ═══════════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════════ -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo" data-route="/" aria-label="AIRS Home">
+        <div class="nav-logo-shield" aria-hidden="true">AI</div>
+        <div>
+          <span class="nav-logo-text">AIRS</span>
+          <span class="nav-logo-sub">AI Rights Shield</span>
+        </div>
+      </a>
+
+      <!-- Mobile menu toggle -->
+      <button class="nav-menu-btn" id="nav-menu-btn"
+              aria-expanded="false" aria-controls="nav-links"
+              aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+          <rect x="2" y="5"  width="18" height="2" rx="1" fill="currentColor"/>
+          <rect x="2" y="10" width="18" height="2" rx="1" fill="currentColor"/>
+          <rect x="2" y="15" width="18" height="2" rx="1" fill="currentColor"/>
+        </svg>
+      </button>
+
+      <!-- Nav links -->
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/" data-route="/"           data-i18n="nav.home">Početna</a></li>
+        <li><a href="/sr-lat/guide" data-route="/guide"      data-i18n="nav.guide">Pravni vodič</a></li>
+        <li><a href="/sr-lat/assessment" data-route="/assessment" data-i18n="nav.assessment">Samoprocena</a></li>
+        <li><a href="/sr-lat/brief" data-route="/brief"      data-i18n="nav.brief">Policy Brief</a></li>
+        <li><a href="/sr-lat/tools" data-route="/tools"     data-i18n="nav.tools">Alatke</a></li>
+        <li><a href="/sr-lat/about" data-route="/about"      data-i18n="nav.about">O projektu</a></li>
+      </ul>
+
+      <!-- Language dropdown -->
+      <div class="lang-toggle">
+        <label for="lang-select" class="visually-hidden">Select language</label>
+        <select id="lang-select" class="lang-select" aria-label="Select language">
+          <option value="sr-lat" selected>SR — lat</option>
+          <option value="sr-cyr">SR — ћир</option>
+          <option value="en">EN — English</option>
+        </select>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════
+       MAIN CONTENT
+  ═══════════════════════════════════════════════════ -->
+  <main id="main-content">
+
+    <!-- ─────────────────────────────
+         HOME PAGE
+    ───────────────────────────── -->
+    <section class="page-section" data-page="home">
+
+      <!-- Hero -->
+      <div class="hero">
+        <div class="hero-inner">
+          <div>
+            <div class="hero-tag" data-i18n="hero.tag">Besplatno · Otvoreni pristup · Dvojezično</div>
+            <h1 class="hero-title" data-i18n="hero.title">
+              Saznajte da li AI koristi vaše radove — i šta možete da preduzmete.
+            </h1>
+            <p class="hero-lead" data-i18n="hero.lead">
+              Besplatan, praktičan set alata za nezavisne umetnike, muzičare, pisce i dizajnere u Srbiji koji se suočavaju sa AI autorskim rizicima.
+            </p>
+            <div class="hero-actions">
+              <a href="/sr-lat/assessment" data-route="/assessment" class="btn btn-primary btn-lg" data-i18n="hero.cta.primary">
+                Pokrenite samoprocenu
+              </a>
+              <a href="/sr-lat/guide" data-route="/guide" class="btn btn-outline btn-lg" data-i18n="hero.cta.secondary">
+                Čitajte pravni vodič
+              </a>
+            </div>
+          </div>
+          <!-- Shield graphic -->
+          <div class="hero-shield" aria-hidden="true">
+            <span class="hero-shield-text">AI</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Module cards -->
+      <div class="content-wide">
+        <div style="margin-bottom:var(--space-4);">
+          <div class="section-label" data-i18n="home.modules.title">Tri alata, jedna platforma</div>
+          <p class="section-lead" data-i18n="home.modules.lead">
+            Koristite svaki modul zasebno ili ih prođite redom.
+          </p>
+        </div>
+
+        <div class="module-grid">
+          <!-- Legal Guide card -->
+          <a href="/sr-lat/guide" data-route="/guide" class="module-card">
+            <div class="module-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+            </div>
+            <div class="module-card-title" data-i18n="module.guide.title">Pravni vodič</div>
+            <p class="module-card-desc" data-i18n="module.guide.desc">
+              Jasno objašnjenje AI, autorskih prava i vaših prava u Srbiji.
+            </p>
+            <div class="module-card-cta" data-i18n="module.guide.cta">Čitajte vodič →</div>
+          </a>
+
+          <!-- Self-Assessment card -->
+          <a href="/sr-lat/assessment" data-route="/assessment" class="module-card">
+            <div class="module-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+              </svg>
+            </div>
+            <div class="module-card-title" data-i18n="module.assessment.title">Alat za samoprocenu</div>
+            <p class="module-card-desc" data-i18n="module.assessment.desc">
+              Odgovorite na pitanja i dobijte personalizovani profil rizika.
+            </p>
+            <div class="module-card-cta" data-i18n="module.assessment.cta">Pokrenite procenu →</div>
+          </a>
+
+          <!-- Policy Brief card -->
+          <a href="/sr-lat/brief" data-route="/brief" class="module-card">
+            <div class="module-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+              </svg>
+            </div>
+            <div class="module-card-title" data-i18n="module.brief.title">Predložak za Policy Brief</div>
+            <p class="module-card-desc" data-i18n="module.brief.desc">
+              Gotov zagovarački dokument. Izvezite kao PDF jednim klikom.
+            </p>
+            <div class="module-card-cta" data-i18n="module.brief.cta">Napravite vaš brief →</div>
+          </a>
+        </div>
+
+        <!-- Why this tool exists -->
+        <div style="max-width:680px;margin:var(--space-12) 0 var(--space-16);">
+          <div class="section-label" data-i18n="home.why.title">Zašto ovaj alat postoji</div>
+          <p style="font-size:var(--text-lg);line-height:1.75;color:var(--c-text-2);" data-i18n="home.why.body">
+            Generativni AI sistemi se rutinski treniraju na zaštićenim kreativnim radovima bez znanja, pristanka ili naknade stvaraoca. AIRS popunjava tu prazninu: praktično, besplatno i na srpskom.
+          </p>
+        </div>
+
+        <!-- Open access statement -->
+        <div class="callout callout-info" style="max-width:680px;">
+          <div class="callout-title" data-i18n="home.openaccess.title">Open access</div>
+          <div class="callout-body" data-i18n="home.openaccess.body">
+            This tool is free, requires no registration, and will remain available after the project period. Source code is published on GitHub under the MIT licence. Content is CC BY 4.0.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────
+         LEGAL GUIDE
+    ───────────────────────────── -->
+    <section class="page-section" data-page="guide" hidden>
+      <div class="page-header">
+        <div class="page-header-inner">
+          <div class="page-header-tag" data-i18n="guide.page.tag">Pravni vodič</div>
+          <h1 class="page-header-title" data-i18n="guide.page.title">
+            AI i autorska prava: šta svaki stvaralac treba da zna
+          </h1>
+          <p class="page-header-lead" data-i18n="guide.page.lead">
+            Šest poglavlja. Bez pravnog predznanja.
+          </p>
+        </div>
+      </div>
+
+      <div class="guide-layout">
+        <!-- Sidebar -->
+        <aside class="guide-sidebar" aria-label="Chapter navigation">
+          <div class="guide-sidebar-title">Chapters</div>
+          <ul class="guide-nav" id="guide-sidebar-nav" role="list">
+            <!-- Populated by guide.js -->
+          </ul>
+        </aside>
+        <!-- Chapter content -->
+        <div class="guide-content" id="guide-chapters">
+          <!-- Populated by guide.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────
+         SELF-ASSESSMENT TOOLKIT
+    ───────────────────────────── -->
+    <section class="page-section" data-page="assessment" hidden>
+      <div class="page-header">
+        <div class="page-header-inner">
+          <div class="page-header-tag" data-i18n="assessment.tag">Alat za samoprocenu</div>
+          <h1 class="page-header-title" data-i18n="assessment.title">
+            Otkrijte vaš profil AI autorskog rizika
+          </h1>
+          <p class="page-header-lead" data-i18n="assessment.lead">
+            Odgovorite na pitanja. Nije potrebno pravno znanje. Ništa ne napušta vaš pretraživač.
+          </p>
+        </div>
+      </div>
+
+      <div class="assessment-wrap">
+        <!-- Progress bar -->
+        <div class="assessment-progress">
+          <div class="progress-bar-wrap" role="progressbar" aria-valuemin="0" aria-valuemax="4" aria-valuenow="1">
+            <div class="progress-bar-fill" id="progress-fill" style="width:25%;"></div>
+          </div>
+          <span class="progress-label" id="progress-label">1 / 4</span>
+        </div>
+
+        <!-- ── Step 1: Creator profile ── -->
+        <div class="step visible" id="step-1">
+          <div class="step-header">
+            <div class="step-tag" data-i18n="step1.tag">Korak 1 od 4</div>
+            <h2 class="step-title" data-i18n="step1.title">Kakav tip stvaraoca ste vi?</h2>
+            <p class="step-lead" data-i18n="step1.lead">Izaberite opciju koja najbolje opisuje vašu primarnu kreativnu praksu.</p>
+          </div>
+
+          <div class="question-block">
+            <div class="question-label" data-i18n="step1.q1">Moj primarni kreativni rad je:</div>
+            <div class="options-list">
+              <button class="option-btn" data-type="visual">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step1.opt.visual">Vizuelna umetnost (ilustracija, slikarstvo, crtanje)</span>
+              </button>
+              <button class="option-btn" data-type="music">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step1.opt.music">Muzika (kompozicija, izvođenje, produkcija)</span>
+              </button>
+              <button class="option-btn" data-type="writing">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step1.opt.writing">Pisanje (fikcija, novinarstvo, poezija, eseji)</span>
+              </button>
+              <button class="option-btn" data-type="design">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step1.opt.design">Dizajn (grafički dizajn, UX/UI, brendiranje, fotografija)</span>
+              </button>
+              <button class="option-btn" data-type="other">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step1.opt.other">Drugo / više disciplina</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="question-block">
+            <div class="question-label" data-i18n="step1.q2">Uglavnom delim svoje radove:</div>
+            <div class="options-list">
+              <button class="option-btn" data-share="online">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step1.opt.online">Online (društvene mreže, lični sajt, portfolio platforme)</span>
+              </button>
+              <button class="option-btn" data-share="both">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step1.opt.both">I online i offline</span>
+              </button>
+              <button class="option-btn" data-share="offline">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step1.opt.offline">Pretežno offline (galerije, print, uživo)</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="step-nav">
+            <span></span>
+            <button class="btn btn-primary" id="btn-next-1" data-i18n="assessment.btn.next">Dalje →</button>
+          </div>
+        </div>
+
+        <!-- ── Step 2: Scenario selection ── -->
+        <div class="step" id="step-2">
+          <div class="step-header">
+            <div class="step-tag" data-i18n="step2.tag">Korak 2 od 4</div>
+            <h2 class="step-title" data-i18n="step2.title">Koji scenario vam se čini najrelevantnijim?</h2>
+            <p class="step-lead" data-i18n="step2.lead">Pročitajte svaki scenario i izaberite onaj koji se najviše podudara sa vašom situacijom.</p>
+          </div>
+
+          <div id="scenario-cards">
+            <!-- Populated by assessment.js -->
+          </div>
+
+          <div class="step-nav">
+            <button class="btn btn-ghost" id="btn-back-2" data-i18n="assessment.btn.back">← Nazad</button>
+            <button class="btn btn-primary" id="btn-next-2" data-i18n="assessment.btn.next">Dalje →</button>
+          </div>
+        </div>
+
+        <!-- ── Step 3: Your situation ── -->
+        <div class="step" id="step-3">
+          <div class="step-header">
+            <div class="step-tag" data-i18n="step3.tag">Korak 3 od 4</div>
+            <h2 class="step-title" data-i18n="step3.title">Vaša situacija</h2>
+          </div>
+
+          <div class="question-block">
+            <div class="question-label" data-i18n="step3.q1">Da li vam se ovaj scenario čini relevantnim za vašu praksu?</div>
+            <div class="options-list">
+              <button class="option-btn" data-relevance="happened">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step3.opt.happened">Da, ovo mi se dogodilo</span>
+              </button>
+              <button class="option-btn" data-relevance="suspect">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step3.opt.suspect">Sumnjam da se nešto slično dogodilo</span>
+              </button>
+              <button class="option-btn" data-relevance="worried">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step3.opt.worried">Brine me da bi se moglo dogoditi</span>
+              </button>
+              <button class="option-btn" data-relevance="notrelevant">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step3.opt.notrelevant">Nije baš relevantno za mene</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="question-block">
+            <div class="question-label" data-i18n="step3.q2">Da li ste preduzeli neke korake da zaštitite sebe ili dokumentujete ovo?</div>
+            <div class="options-list">
+              <button class="option-btn" data-actions="yes">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step3.opt.yes">Da, preduzeo/la sam korake</span>
+              </button>
+              <button class="option-btn" data-actions="no">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step3.opt.no">Ne, nisam</span>
+              </button>
+              <button class="option-btn" data-actions="notsure">
+                <div class="option-indicator" aria-hidden="true"></div>
+                <span data-i18n="step3.opt.notsure">Nisam siguran/na šta da radim</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="step-nav">
+            <button class="btn btn-ghost" id="btn-back-3" data-i18n="assessment.btn.back">← Nazad</button>
+            <button class="btn btn-primary" id="btn-next-3" data-i18n="assessment.btn.show">Prikaži moje rezultate →</button>
+          </div>
+        </div>
+
+        <!-- ── Step 4: Results ── -->
+        <div class="step" id="step-4">
+          <div class="step-header">
+            <div class="step-tag" data-i18n="step4.tag">Korak 4 od 4 — Vaši rezultati</div>
+            <h2 class="step-title" data-i18n="step4.title">Vaš profil rizika i sledeći koraci</h2>
+          </div>
+
+          <div id="results-content">
+            <!-- Populated by assessment.js -->
+          </div>
+
+          <div class="step-nav" style="flex-wrap:wrap;gap:var(--space-3);">
+            <button class="btn btn-ghost" id="btn-restart" data-i18n="assessment.btn.restart">↺ Počnite ponovo</button>
+            <div style="display:flex;gap:var(--space-3);">
+              <button class="btn btn-ghost" id="btn-print" data-i18n="step4.export">Štampaj / PDF</button>
+              <button class="btn btn-primary" id="btn-goto-brief" data-i18n="step4.brief">Napravite Policy Brief →</button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /assessment-wrap -->
+    </section>
+
+    <!-- ─────────────────────────────
+         POLICY BRIEF
+    ───────────────────────────── -->
+    <section class="page-section" data-page="brief" hidden>
+      <div class="page-header">
+        <div class="page-header-inner">
+          <div class="page-header-tag" data-i18n="brief.tag">Predložak za Policy Brief</div>
+          <h1 class="page-header-title" data-i18n="brief.title">Napravite i izvezite vaš zagovarački dokument</h1>
+          <p class="page-header-lead" data-i18n="brief.lead">Popunite polja. Pregled se ažurira uživo. Izvezite kao PDF.</p>
+        </div>
+      </div>
+
+      <div class="brief-layout">
+        <!-- Form panel -->
+        <div class="brief-form-panel">
+
+          <!-- Section 1: Your details -->
+          <div class="form-section">
+            <div class="form-section-title" data-i18n="brief.s1.title">Vaši podaci</div>
+            <div class="form-group">
+              <label class="form-label" for="brief-org" data-i18n="brief.field.org.label">Organizacija / Kolektiv / Ime</label>
+              <input class="form-input" type="text" id="brief-org"
+                placeholder="npr. NKSS, Kolektiv XY, Ana Marković"
+                data-i18n-placeholder="brief.field.org.placeholder">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="brief-name" data-i18n="brief.field.name.label">Kontakt ime (opcionalno)</label>
+              <input class="form-input" type="text" id="brief-name"
+                placeholder="Vaše ime"
+                data-i18n-placeholder="brief.field.name.placeholder">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="brief-role" data-i18n="brief.field.role.label">Uloga / titula (opcionalno)</label>
+              <input class="form-input" type="text" id="brief-role"
+                placeholder="npr. Predsednica, Dizajnerka"
+                data-i18n-placeholder="brief.field.role.placeholder">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="brief-city" data-i18n="brief.field.city.label">Grad (opcionalno)</label>
+              <input class="form-input" type="text" id="brief-city"
+                placeholder="npr. Beograd"
+                data-i18n-placeholder="brief.field.city.placeholder">
+            </div>
+          </div>
+
+          <!-- Section 2: Problem statement -->
+          <div class="form-section">
+            <div class="form-section-title" data-i18n="brief.s2.title">Opis problema</div>
+            <div class="form-group">
+              <label class="form-label" for="brief-problem" data-i18n="brief.field.problem.label">Opišite problem koji vas pogađa</label>
+              <p class="form-hint" data-i18n="brief.field.problem.hint">Možete koristiti sopstvene reči ili prilagoditi predloženi tekst: <em>AI sistemi koriste zaštićena kreativna dela za treniranje bez dozvole, atribucije ili naknade — ostavljajući nezavisne stvaraoce bez zakonske zaštite.</em></p>
+              <textarea class="form-textarea" id="brief-problem" rows="5"
+                placeholder="Opišite konkretan problem koji vas pogađa kao stvaraoca..."
+                data-i18n-placeholder="brief.field.problem.placeholder"></textarea>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="brief-evidence" data-i18n="brief.field.evidence.label">Dokazi / statistike (opcionalno)</label>
+              <p class="form-hint" data-i18n="brief.field.evidence.hint">Možete uključiti sopstvene primere ili koristiti podatke iz AIRS istraživanja (dostupni u Poglavlju 2 Pravnog vodiča).</p>
+              <textarea class="form-textarea" id="brief-evidence" rows="4"
+                placeholder="npr. AIRS istraživanje (2025) pokazuje da 78% nezavisnih umetnika u Srbiji nije svesno nijednog alata za zaštitu..."
+                data-i18n-placeholder="brief.field.evidence.placeholder"></textarea>
+            </div>
+          </div>
+
+          <!-- Section 3: Demands -->
+          <div class="form-section">
+            <div class="form-section-title" data-i18n="brief.s3.title">Naši zahtevi</div>
+            <p class="form-hint" data-i18n="brief.s3.hint" style="margin-bottom:1rem;">Izaberite zahteve koje želite da uključite. Možete izabrati jedan ili više.</p>
+            <div class="form-checkbox-group">
+              <label class="form-checkbox">
+                <input type="checkbox" id="demand-optout" checked>
+                <span class="form-checkbox-text" data-i18n="brief.demand.optout"><strong>Mehanizmi za odjavu</strong> — AI kompanije moraju pružiti jasne opcije isključivanja iz skupova podataka za treniranje.</span>
+              </label>
+              <label class="form-checkbox">
+                <input type="checkbox" id="demand-attr">
+                <span class="form-checkbox-text" data-i18n="brief.demand.attr"><strong>Atribucija</strong> — Stvaraoci čiji radovi se koriste za AI treniranje moraju primiti odgovarajuću atribuciju.</span>
+              </label>
+              <label class="form-checkbox">
+                <input type="checkbox" id="demand-remun">
+                <span class="form-checkbox-text" data-i18n="brief.demand.remun"><strong>Pravična naknada</strong> — Uspostaviti mehanizme za naknadu stvaraocima čiji radovi se koriste u komercijalnim AI sistemima.</span>
+              </label>
+              <label class="form-checkbox">
+                <input type="checkbox" id="demand-legalgap">
+                <span class="form-checkbox-text" data-i18n="brief.demand.legalgap"><strong>Ažuriranje zakona</strong> — Srpski zakon o autorskim pravima mora eksplicitno regulisati upotrebu podataka za AI treniranje.</span>
+              </label>
+              <label class="form-checkbox">
+                <input type="checkbox" id="demand-collective">
+                <span class="form-checkbox-text" data-i18n="brief.demand.collective"><strong>Kolektivno licenciranje</strong> — Razviti okvire kolektivnog licenciranja u partnerstvu sa SOKOJ-em i udruženjima stvaralaca.</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Section 4: About & signatories -->
+          <div class="form-section">
+            <div class="form-section-title" data-i18n="brief.s4.title">O autoru / organizaciji</div>
+            <div class="form-group">
+              <label class="form-label" for="brief-about" data-i18n="brief.field.about.label">Ko ste vi? (2–4 rečenice)</label>
+              <textarea class="form-textarea" id="brief-about" rows="3"
+                placeholder="npr. Nezavisni muzičar sa 10 godina iskustva, koji objavljuje muziku na srpskoj i međunarodnoj sceni..."
+                data-i18n-placeholder="brief.field.about.placeholder"></textarea>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="brief-signatories" data-i18n="brief.field.signatories.label">Potpisnici (opcionalno)</label>
+              <p class="form-hint" data-i18n="brief.field.signatories.hint">Odvojite zareze ili novim redovima.</p>
+              <textarea class="form-textarea" id="brief-signatories" rows="3"
+                placeholder="Ana Marković, Marko Petrović, Jelena Đorđević..."
+                data-i18n-placeholder="brief.field.signatories.placeholder"></textarea>
+            </div>
+          </div>
+
+          <!-- Export actions -->
+          <div class="brief-actions">
+            <button class="btn btn-primary" id="btn-export-pdf" data-i18n="brief.export.pdf">Izvezi kao PDF</button>
+            <button class="btn btn-ghost"   id="btn-copy"       data-i18n="brief.export.copy">Kopiraj kao tekst</button>
+            <button class="btn btn-ghost"   id="btn-sharelink"  data-i18n="brief.export.link">Kopiraj link za deljenje</button>
+          </div>
+
+        </div><!-- /brief-form-panel -->
+
+        <!-- Preview panel -->
+        <div class="brief-preview-panel">
+          <div class="preview-label" data-i18n="brief.preview.label">Pregled uživo</div>
+          <div class="preview-doc" id="preview-doc">
+            <p style="color:var(--c-text-3);font-style:italic;font-size:.9rem;" data-i18n="brief.preview.empty">Popunite polja s leve strane da biste videli pregled vašeg dokumenta.</p>
+          </div>
+        </div>
+
+      </div><!-- /brief-layout -->
+    </section>
+
+    <!-- ─────────────────────────────
+         TOOLS DIRECTORY
+    ───────────────────────────── -->
+    <section class="page-section" data-page="tools" hidden>
+      <div class="page-header">
+        <div class="page-header-inner">
+          <div class="page-header-tag" data-i18n="tools.page.tag">Creator Protection Tools</div>
+          <h1 class="page-header-title" data-i18n="tools.page.title">Tools for protecting your creative work from AI</h1>
+          <p class="page-header-lead" data-i18n="tools.page.lead">17 practical tools, rated and explained. Filter by category.</p>
+        </div>
+      </div>
+      <div class="tools-body">
+        <div id="tools-filter-bar" class="tools-filter-bar" role="toolbar" aria-label="Filter tools by category"></div>
+        <div id="tools-container"></div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────
+         ABOUT
+    ───────────────────────────── -->
+    <section class="page-section" data-page="about" hidden>
+      <div class="page-header">
+        <div class="page-header-inner">
+          <div class="page-header-tag" data-i18n="about.tag">O AIRS-u</div>
+          <h1 class="page-header-title" data-i18n="about.title">AI Rights Shield za nezavisne umetnike i kulturnu scenu</h1>
+          <p class="page-header-lead" data-i18n="about.lead">
+            AIRS je projekat KreativaLab-a, beogradske organizacije civilnog društva fokusirane na etičku integraciju tehnologije u kulturu i kreativne industrije.
+          </p>
+        </div>
+      </div>
+      <div class="content-narrow">
+        <div class="prose">
+
+          <h2 data-i18n="about.h2.project">O projektu</h2>
+          <p data-i18n="about.p1">AI Rights Shield for Independent Artists and Cultural Scene (AIRS) project is an innovative digital tool and awareness-raising campaign empowering independent artists, creative individuals and the cultural scene in Serbia and abroad. It navigates AI-generated threats to authorship rights, makes AI copyright misconduct more transparent, and provides greater right-to-work protection for the independent artist and creative sectors.</p>
+          <div style="margin-top:2rem;">
+            <img src="docs/img/ddi-logo.png" alt="Digital Democracy Initiative" style="max-height:60px;height:auto;display:block;">
+          </div>
+          <p data-i18n="about.p2">The project builds digital literacy on Artificial Intelligence (AI), conducts risk assessments, and develops a user-friendly web app for rights monitoring, transparency and advocacy. This activity is supported by the CIVICUS Digital Democracy Initiative (DDI). AIRS empowers independent artists to defend their digital rights in the time of AI-driven threats.</p>
+
+          <h2 data-i18n="about.h2.partners">Partneri i donatori</h2>
+          <p>AIRS is supported through the Digital Spark granting scheme, as part of the Regional Support Mechanism EECA project, implemented by Metamorphosis Foundation and TechSoup, in partnership with CIVICUS and under the Digital Democracy Initiative (DDI) that covers the Global South.</p>
+          <div style="margin-top:1.5rem;">
+            <img src="docs/img/digital-spark-logos.png" alt="Project partners: CIVICUS, Metamorphosis Foundation for Internet and Society, TechSoup, Digital Activism Program" style="max-width:100%;height:auto;display:block;">
+          </div>
+
+          <h2 data-i18n="about.h2.tools">Alternativni alati i resursi</h2>
+          <p data-i18n="about.tools.p">AIRS nije jedini alat koji može da vam pomogne. Sledeći resursi su besplatni i korisni za nezavisne stvaraoce:</p>
+          <ul>
+  <li data-i18n="about.tools.li1"><strong><a href="https://haveibeentrained.com" target="_blank" rel="noopener">Have I Been Trained?</a></strong> — Pretražite da li se vaš rad nalazi u LAION-5B skupu podataka.</li>
+  <li data-i18n="about.tools.li2"><strong><a href="https://spawning.ai" target="_blank" rel="noopener">Spawning.ai</a></strong> — Registrujte se za isključivanje iz budućih skupova podataka za AI treniranje.</li>
+  <li data-i18n="about.tools.li3"><strong><a href="https://fairlytrained.org" target="_blank" rel="noopener">Fairly Trained</a></strong> — Sertifikacija za AI kompanije koje treniraju isključivo na licenciranom sadržaju.</li>
+  <li data-i18n="about.tools.li4"><strong><a href="https://glaze.cs.uchicago.edu" target="_blank" rel="noopener">Glaze</a></strong> — Besplatan alat koji vizuelnim umetnicima omogućava zaštitu stila od AI kopiranja.</li>
+  <li data-i18n="about.tools.li5"><strong><a href="https://nightshade.cs.uchicago.edu" target="_blank" rel="noopener">Nightshade</a></strong> — Alat koji aktivno ometa AI treniranje na vašim vizuelnim radovima.</li>
+  <li data-i18n="about.tools.li6"><strong><a href="https://artistrightsalliance.com" target="_blank" rel="noopener">Artist Rights Alliance</a></strong> — Resursi i zagovaračke kampanje za prava umetnika u AI kontekstu.</li>
+</ul>
+
+          <h2 data-i18n="about.h2.license">Licenca i otvoreni kod</h2>
+<div class="callout callout-info">
+  <div class="callout-title" data-i18n="about.license.title">Open source</div>
+  <div class="callout-body" data-i18n="about.license.body">
+    Sav sadržaj ove aplikacije je dostupan pod licencom <strong>CC BY 4.0</strong> — slobodno ga reprodukujte, prilagođavajte i delite uz atribuciju AIRS / KreativaLab. Izvorni kod je dostupan pod <strong>MIT licencom</strong> na <a href="https://github.com/kreativalab/airs-app" target="_blank" rel="noopener">GitHub-u</a>.
+  </div>
+</div>
+
+          <h2 data-i18n="about.h2.contact">Kontakt</h2>
+          <p data-i18n="about.contact.p">Za pitanja, ispravke ili predloge za saradnju: <a href="mailto:airs@kreativalab.org">airs@kreativalab.org</a></p>
+          <div style="margin-top:2rem;">
+            <img src="docs/img/kreativalab-logo.png" alt="KreativaLab" style="max-height:60px;height:auto;display:block;">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────
+         LEGAL & TRANSPARENCY
+    ───────────────────────────── -->
+    <section class="page-section" data-page="legal" hidden>
+      <div class="page-header">
+        <div class="page-header-inner">
+          <div class="page-header-tag" data-i18n="legal.tag">Pravno i transparentnost</div>
+          <h1 class="page-header-title" data-i18n="legal.title">Jednostavan jezik, privatnost i uslovi korišćenja</h1>
+        </div>
+      </div>
+      <div class="content-narrow">
+        <div class="prose">
+
+<h2 id="plain" data-i18n="legal.h2.plain">Standard jednostavnog jezika</h2>
+<p data-i18n="legal.plain.p1">AIRS aplikacija koristi <strong>jednostavan jezik kao osnovno zahtev dizajna</strong>, a ne naknadnu dopunu. Sav sadržaj — u Pravnom vodiču, Alatu za samoprocenu i Predlošku za Policy Brief — napisan je i pregledan da bi ga razumeli nezavisni umetnici i kreativni radnici koji nemaju pravno ili tehničko obrazovanje.</p>
+<p data-i18n="legal.plain.p2">Standard jednostavnog jezika znači:</p>
+<ul>
+  <li data-i18n="legal.plain.li1">Nivo čitanja kalibrisan na B1–B2 na srpskom i engleskom</li>
+  <li data-i18n="legal.plain.li2">Pravni termini objašnjeni jednostavnim jezikom pri prvom pojavljivanju, bez pretpostavljanja</li>
+  <li data-i18n="legal.plain.li3">Svaki pravni koncept praćen konkretnom implikacijom za stvaraoca ("šta ovo znači za vas")</li>
+  <li data-i18n="legal.plain.li4">Pitanja za samoprocenu napisana kao svakodnevni scenariji, ne kao pravne hipoteze</li>
+  <li data-i18n="legal.plain.li5">Srpski tekst nije doslovni prevod engleskog — nezavisno je pregledano radi pristupačnosti</li>
+</ul>
+<div class="callout callout-key">
+  <div class="callout-title" data-i18n="legal.plain.feedback.title">Povratne informacije</div>
+  <div class="callout-body" data-i18n="legal.plain.feedback.body">Da li ste pronašli nešto teško za razumevanje? Recite nam: <a href="mailto:airs@kreativalab.org">airs@kreativalab.org</a></div>
+</div>
+
+<h2 id="privacy" data-i18n="legal.h2.privacy">Politika privatnosti</h2>
+<p data-i18n="legal.privacy.p1">AIRS aplikacija je dizajnirana sa privatnošću kao osnovom.</p>
+<ul>
+  <li data-i18n="legal.privacy.li1"><strong>Šta prikupljamo:</strong> Ništa što vas identifikuje. Vaš izbor jezika čuva se u localStorage vašeg pretraživača — nikada ne napušta vaš uređaj.</li>
+  <li data-i18n="legal.privacy.li2"><strong>Analitika:</strong> Koristimo analitiku bez kolačića i bez ličnih podataka (Plausible ili Umami). IP adrese se ne čuvaju. Kolačići se ne postavljaju.</li>
+  <li data-i18n="legal.privacy.li3"><strong>Alat za samoprocenu:</strong> Svi vaši odgovori obrađuju se isključivo u vašem pretraživaču. Ništa se ne šalje na naš server. Ne možemo videti, čuvati ni pristupati vašim odgovorima.</li>
+  <li data-i18n="legal.privacy.li4"><strong>Usluge trećih lica:</strong> Aplikacija ne ugrađuje skripte za praćenje, reklamne mreže niti vidžete društvenih mreža.</li>
+  <li data-i18n="legal.privacy.li5"><strong>Kontakt:</strong> airs@kreativalab.org</li>
+</ul>
+
+<h2 id="terms" data-i18n="legal.h2.terms">Uslovi korišćenja</h2>
+<ul>
+  <li data-i18n="legal.terms.li1"><strong>Šta je ovaj alat:</strong> AIRS pruža opšte informacije i praktične alate. Nije advokatska kancelarija i ne pruža pravne savete. Ništa u ovoj aplikaciji ne treba tretirati kao pravno mišljenje o vašoj specifičnoj situaciji.</li>
+  <li data-i18n="legal.terms.li2"><strong>Šta ovaj alat nije:</strong> Pravni vodič opisuje zakon kakav je bio na datum naveden u vodiču. Zakon se menja — uvek proverite aktuelnu verziju zakona pre preduzimanja akcija.</li>
+  <li data-i18n="legal.terms.li3"><strong>Odgovornost:</strong> KreativaLab pruža ovaj alat u dobroj nameri za javnu korist. Nismo odgovorni za odluke donete na osnovu sadržaja u ovoj aplikaciji.</li>
+  <li data-i18n="legal.terms.li4"><strong>Licenca sadržaja:</strong> Sav pisani sadržaj u ovoj aplikaciji objavljen je pod licencom Creative Commons Attribution 4.0 International (CC BY 4.0).</li>
+  <li data-i18n="legal.terms.li5"><strong>Licenca koda:</strong> Izvorni kod ove aplikacije objavljen je pod MIT licencom. Slobodno ga koristite, kopirajte, modifikujte i distribuirajte.</li>
+  <li data-i18n="legal.terms.li6"><strong>Spoljni linkovi:</strong> Aplikacija linkuje ka spoljnim resursima. Ne kontrolišemo te sajtove i nismo odgovorni za njihov sadržaj.</li>
+</ul>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- /main-content -->
+
+  <!-- ═══════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <div class="nav-logo" style="text-decoration:none;">
+          <div class="nav-logo-shield" aria-hidden="true">AI</div>
+          <div>
+            <span class="nav-logo-text">AIRS</span>
+            <span class="nav-logo-sub" style="color:rgba(255,255,255,.5);">AI Rights Shield</span>
+          </div>
+        </div>
+        <p data-i18n="footer.tagline">Praktični alati za nezavisne stvaraoce koji se suočavaju sa AI autorskim rizicima.</p>
+      </div>
+
+      <div>
+        <div class="footer-col-title" data-i18n="footer.modules">Moduli</div>
+        <ul class="footer-links">
+          <li><a href="/sr-lat/guide"      data-route="/guide"      data-i18n="nav.guide">Pravni vodič</a></li>
+          <li><a href="/sr-lat/assessment" data-route="/assessment" data-i18n="nav.assessment">Samoprocena</a></li>
+          <li><a href="/sr-lat/brief"      data-route="/brief"      data-i18n="nav.brief">Policy Brief</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title" data-i18n="footer.legal">Pravno</div>
+        <ul class="footer-links">
+          <li><a href="#" data-route="/legal" data-hash="#privacy" data-i18n="footer.privacy">Politika privatnosti</a></li>
+        <li><a href="#" data-route="/legal" data-hash="#terms"   data-i18n="footer.terms">Uslovi korišćenja</a></li>
+        <li><a href="#" data-route="/legal" data-hash="#plain"   data-i18n="footer.plain">Jednostavan jezik</a></li>
+          <li><a href="https://github.com/kreativalab/airs-app" target="_blank" rel="noopener" data-i18n="footer.github">GitHub (MIT)</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="footer.copy">Sadržaj: CC BY 4.0 · KreativaLab · Kod: MIT</p>
+      <div class="footer-badges">
+        <span class="footer-badge">WCAG 2.1 AA</span>
+        <span class="footer-badge">No cookies</span>
+        <span class="footer-badge">Open source</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+  <script src="js/modules/guide.js"></script>
+  <script src="js/modules/assessment.js"></script>
+  <script src="js/modules/brief.js"></script>
+  <script src="js/modules/tools.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1057 @@
+{
+  "nav.home": {
+    "en": "Home",
+    "sr_lat": "Početna",
+    "sr_cyr": "Почетна"
+  },
+  "nav.guide": {
+    "en": "Legal Guide",
+    "sr_lat": "Pravni vodič",
+    "sr_cyr": "Правни водич"
+  },
+  "nav.assessment": {
+    "en": "Self-Assessment",
+    "sr_lat": "Samoprocena",
+    "sr_cyr": "Самопроцена"
+  },
+  "nav.brief": {
+    "en": "Policy Brief",
+    "sr_lat": "Policy Brief",
+    "sr_cyr": "Policy Brief"
+  },
+  "nav.about": {
+    "en": "About",
+    "sr_lat": "O projektu",
+    "sr_cyr": "О пројекту"
+  },
+  "nav.tools": {
+    "en": "Tools",
+    "sr_lat": "Alati",
+    "sr_cyr": "Алати"
+  },
+  "hero.tag": {
+    "en": "Free · Open Access · Bilingual",
+    "sr_lat": "Besplatno · Otvoreni pristup · Dvojezično",
+    "sr_cyr": "Бесплатно · Отворени приступ · Двојезично"
+  },
+  "hero.title": {
+    "en": "Find out if AI is using your work — and what you can do about it.",
+    "sr_lat": "Saznajte da li AI koristi vaše radove — i šta možete da preduzmete.",
+    "sr_cyr": "Сазнајте да ли AI користи ваше радове — и шта можете да предузмете."
+  },
+  "hero.lead": {
+    "en": "A free, practical toolkit for independent artists, musicians, writers and designers in Serbia navigating AI copyright risks.",
+    "sr_lat": "Besplatan, praktičan set alata za nezavisne umetnike, muzičare, pisce i dizajnere u Srbiji koji se suočavaju sa AI autorskim rizicima.",
+    "sr_cyr": "Бесплатан, практичан сет алата за независне уметнике, музичаре, писце и дизајнере у Србији који се суочавају са AI ауторским ризицима."
+  },
+  "hero.cta.primary": {
+    "en": "Start Self-Assessment",
+    "sr_lat": "Pokrenite samoprocenu",
+    "sr_cyr": "Покрените самопроцену"
+  },
+  "hero.cta.secondary": {
+    "en": "Read the Legal Guide",
+    "sr_lat": "Čitajte pravni vodič",
+    "sr_cyr": "Читајте правни водич"
+  },
+  "assessment.btn.next": {
+    "en": "Next →",
+    "sr_lat": "Dalje →",
+    "sr_cyr": "Даље →"
+  },
+  "assessment.btn.back": {
+    "en": "← Back",
+    "sr_lat": "← Nazad",
+    "sr_cyr": "← Назад"
+  },
+  "assessment.btn.show": {
+    "en": "Show my results →",
+    "sr_lat": "Prikaži moje rezultate →",
+    "sr_cyr": "Прикажи моје резултате →"
+  },
+  "assessment.btn.restart": {
+    "en": "↺ Start over",
+    "sr_lat": "↺ Počnite ponovo",
+    "sr_cyr": "↺ Почните поново"
+  },
+  "home.modules.title": {
+    "en": "Three tools, one platform",
+    "sr_lat": "Tri alata, jedna platforma",
+    "sr_cyr": "Три алата, једна платформа"
+  },
+  "home.modules.lead": {
+    "en": "Use each module independently or work through them in sequence — from understanding your rights to taking action.",
+    "sr_lat": "Koristite svaki modul zasebno ili ih prođite redom — od razumevanja vaših prava do konkretnog delovanja.",
+    "sr_cyr": "Користите сваки модул засебно или их прођите редом — од разумевања ваших права до конкретног деловања."
+  },
+  "module.guide.title": {
+    "en": "Legal Guide",
+    "sr_lat": "Pravni vodič",
+    "sr_cyr": "Правни водич"
+  },
+  "module.guide.desc": {
+    "en": "Plain-language explanation of AI, copyright, and your rights as a creator in Serbia. Six chapters, no legal background required.",
+    "sr_lat": "Jasno objašnjenje AI, autorskih prava i vaših prava kao stvaraoca u Srbiji. Šest poglavlja, bez pravnog predznanja.",
+    "sr_cyr": "Јасно објашњење AI, ауторских права и ваших права као ствараоца у Србији. Шест поглавља, без правног предзнања."
+  },
+  "module.guide.cta": {
+    "en": "Read the guide",
+    "sr_lat": "Čitajte vodič",
+    "sr_cyr": "Читајте водич"
+  },
+  "module.assessment.title": {
+    "en": "Self-Assessment Toolkit",
+    "sr_lat": "Alat za samoprocenu",
+    "sr_cyr": "Алат за самопроцену"
+  },
+  "module.assessment.desc": {
+    "en": "Answer a few questions about your creative practice and receive a personalised risk summary with concrete next steps.",
+    "sr_lat": "Odgovorite na nekoliko pitanja o vašoj kreativnoj praksi i dobijte personalizovani profil rizika sa konkretnim koracima.",
+    "sr_cyr": "Одговорите на неколико питања о вашој креативној пракси и добијте персонализовани профил ризика са конкретним корацима."
+  },
+  "module.assessment.cta": {
+    "en": "Start assessment",
+    "sr_lat": "Pokrenite procenu",
+    "sr_cyr": "Покрените процену"
+  },
+  "module.brief.title": {
+    "en": "Policy Brief Template",
+    "sr_lat": "Predložak za policy brief",
+    "sr_cyr": "Предложак за policy brief"
+  },
+  "module.brief.desc": {
+    "en": "A ready-to-use, editable advocacy document you can submit to policymakers, institutions or media. Export as PDF in one click.",
+    "sr_lat": "Gotov, uredi odivi zagovarački dokument koji možete dostaviti donosiocima odluka, institucijama ili medijima. Izvezite kao PDF jednim klikom.",
+    "sr_cyr": "Готов, уредиви заговарачки документ који можете доставити доносиоцима одлука, институцијама или медијима. Извезите као PDF једним кликом."
+  },
+  "module.brief.cta": {
+    "en": "Build your brief",
+    "sr_lat": "Napravite vaš brief",
+    "sr_cyr": "Направите ваш brief"
+  },
+  "home.why.title": {
+    "en": "Why this tool exists",
+    "sr_lat": "Zašto ovaj alat postoji",
+    "sr_cyr": "Зашто овај алат постоји"
+  },
+  "home.why.body": {
+    "en": "Generative AI systems are routinely trained on copyrighted creative work — without the creator's knowledge, consent, or compensation. Most independent artists in Serbia have no access to legal support to understand or respond to this. AIRS fills that gap: practical, free, and in Serbian.",
+    "sr_lat": "Generativni AI sistemi se rutinski treniraju na zaštićenim kreativnim radovima — bez znanja, pristanka ili naknade stvaraoca. Većina nezavisnih umetnika u Srbiji nema pristup pravnoj podršci da razume ili odgovori na ovo. AIRS popunjava tu prazninu: praktično, besplatno i na srpskom.",
+    "sr_cyr": "Генеративни AI системи се рутински тренирају на заштићеним креативним радовима — без знања, пристанка или накнаде ствараоца. Већина независних уметника у Србији нема приступ правној подршци да разуме или одговори на ово. AIRS попуњава ту празнину: практично, бесплатно и на српском."
+  },
+  "home.openaccess.title": {
+    "en": "Open access",
+    "sr_lat": "Otvoreni pristup",
+    "sr_cyr": "Отворени приступ"
+  },
+  "home.openaccess.body": {
+    "en": "This tool is free, requires no registration, and will remain available after the project period. Source code is published on GitHub under the MIT licence. Content is CC BY 4.0.",
+    "sr_lat": "Ovaj alat je besplatan, ne zahteva registraciju i ostaće dostupan i nakon projektnog perioda. Izvorni kod je objavljen na GitHub-u pod MIT licencom. Sadržaj je dostupan pod CC BY 4.0.",
+    "sr_cyr": "Овај алат је бесплатан, не захтева регистрацију и остаће доступан и након пројектног периода. Изворни код је објављен на GitHub-у под MIT лиценцом. Садржај је доступан под CC BY 4.0."
+  },
+  "guide.page.tag": {
+    "en": "Legal Guide",
+    "sr_lat": "Pravni vodič",
+    "sr_cyr": "Правни водич"
+  },
+  "guide.page.title": {
+    "en": "AI and copyright: what every creator needs to know",
+    "sr_lat": "AI i autorska prava: šta svaki stvaralac treba da zna",
+    "sr_cyr": "AI и ауторска права: шта сваки стваралац треба да зна"
+  },
+  "guide.page.lead": {
+    "en": "Six chapters. No legal background needed. Updated as the law evolves.",
+    "sr_lat": "Šest poglavlja. Bez pravnog predznanja. Ažurirano kako se zakon menja.",
+    "sr_cyr": "Шест поглавља. Без правног предзнања. Ажурирано како се закон мења."
+  },
+  "guide.ch1.number": {
+    "en": "Chapter 1",
+    "sr_lat": "Poglavlje 1",
+    "sr_cyr": "Поглавље 1"
+  },
+  "guide.ch1.title": {
+    "en": "Your work and copyright",
+    "sr_lat": "Vaše delo i autorska prava",
+    "sr_cyr": "Ваше дело и ауторска права"
+  },
+  "guide.ch1.lead": {
+    "en": "What copyright protects, how it arises automatically, and what it means to own copyright as a freelancer in Serbia.",
+    "sr_lat": "Šta autorska prava štite, kako nastaju automatski i šta znači biti vlasnik autorskih prava kao freelancer u Srbiji.",
+    "sr_cyr": "Шта ауторска права штите, како настају аутоматски и шта значи бити власник ауторских права као freelancer у Србији."
+  },
+  "guide.ch1.body": {
+    "en": "<h3>Copyright arises the moment you create</h3><p>Under Serbia's <strong>Law on Copyright and Related Rights</strong> (2009, amended 2019), copyright protection attaches automatically to any original creative work the moment it is expressed in a tangible form. You do not need to register, pay a fee, or place a © symbol anywhere.</p><p>A work is <em>original</em> if it reflects the author's own intellectual creation — their individual choices of expression. A photograph, an illustration, a piece of music, a written story, a graphic design, or a short video can all qualify.</p><h3>What rights do you get?</h3><ul><li><strong>Moral rights</strong> — the right to be named as author, the right to object to distortion or mutilation of your work, and the right to decide when and whether to publish. These cannot be sold or given away.</li><li><strong>Economic rights</strong> — the exclusive right to reproduce, distribute, communicate, translate, adapt, or publicly display your work. These can be licensed or assigned.</li></ul><h3>How long does protection last?</h3><p>Copyright lasts for the author's lifetime plus <strong>70 years</strong>. After that, the work enters the public domain.</p><div class='callout callout-tip'><strong>Plain-language summary:</strong> As soon as you finish a drawing, a song, a text, or a design — it is protected by law. No paperwork needed. AI companies that copy or use that work without permission may be violating your rights.</div>",
+    "sr_lat": "<h3>Autorsko pravo nastaje u trenutku stvaranja</h3><p>Prema srpskom <strong>Zakonu o autorskom i srodnim pravima</strong> (2009, izmenjen 2019), zaštita autorskog prava nastaje automatski za svako originalno kreativno delo čim bude izraženo u opipljivom obliku. Ne treba da se registrujete, platite taksu niti da negde stavite simbol ©.</p><p>Delo je <em>originalno</em> ako odražava autorovu sopstvenu intelektualnu tvorevinu — individualne izbore izražavanja. Fotografija, ilustracija, muzičko delo, pisana priča, grafički dizajn ili kratki video mogu ispuniti ovaj uslov.</p><h3>Koja prava dobijate?</h3><ul><li><strong>Moralna prava</strong> — pravo da budete navedeni kao autor, pravo na prigovor zbog narušavanja ili unakazivanja vašeg dela i pravo da odlučite kada i da li ćete objaviti delo. Ova prava se ne mogu prodati niti preneti.</li><li><strong>Imovinska prava</strong> — isključivo pravo na reprodukciju, distribuciju, saopštavanje, prevod, adaptaciju ili javno prikazivanje vašeg dela. Ova prava se mogu licencirati ili ustupiti.</li></ul><h3>Koliko dugo traje zaštita?</h3><p>Autorsko pravo traje tokom celog autorskog života plus <strong>70 godina</strong>. Nakon toga, delo postaje javno dobro.</p><div class='callout callout-tip'><strong>Jednostavno rečeno:</strong> Čim završite crtež, pesmu, tekst ili dizajn — zaštićeni ste zakonom. Nikakva papirologija nije potrebna. AI kompanije koje kopiraju ili koriste to delo bez dozvole mogu kršiti vaša prava.</div>",
+    "sr_cyr": "<h3>Ауторско право настаје у тренутку стварања</h3><p>Према српском <strong>Закону о ауторском и сродним правима</strong> (2009, измењен 2019), заштита ауторског права настаје аутоматски за свако оригинално креативно дело чим буде изражено у опипљивом облику. Не треба да се региструјете, платите таксу нити да негде ставите симбол ©.</p><p>Дело је <em>оригинално</em> ако одражава ауторову сопствену интелектуалну творевину — индивидуалне изборе изражавања. Фотографија, илустрација, музичко дело, писана прича, графички дизајн или кратки видео могу испунити овај услов.</p><h3>Која права добијате?</h3><ul><li><strong>Морална права</strong> — право да будете наведени као аутор, право на приговор због нарушавања или уназивања вашег дела и право да одлучите када и да ли ћете објавити дело. Ова права се не могу продати нити пренети.</li><li><strong>Имовинска права</strong> — искључиво право на репродукцију, дистрибуцију, саопштавање, превод, адаптацију или јавно приказивање вашег дела. Ова права се могу лиценцирати или уступити.</li></ul><h3>Колико дуго траје заштита?</h3><p>Ауторско право траје током целог ауторског живота плус <strong>70 година</strong>. Након тога, дело постаје јавно добро.</p><div class='callout callout-tip'><strong>Просто речено:</strong> Чим завршите цртеж, песму, текст или дизајн — заштићени сте законом. Никаква папирологија није потребна. AI компаније koje копирају или користе то дело без дозволе могу кршити ваша права.</div>"
+  },
+  "guide.ch2.number": {
+    "en": "Chapter 2",
+    "sr_lat": "Poglavlje 2",
+    "sr_cyr": "Поглавље 2"
+  },
+  "guide.ch2.title": {
+    "en": "How AI systems use creative work",
+    "sr_lat": "Kako AI sistemi koriste kreativna dela",
+    "sr_cyr": "Како AI системи користе креативна дела"
+  },
+  "guide.ch2.lead": {
+    "en": "Plain-language explanation of training data, web scraping, and why AI models contain traces of copyrighted work.",
+    "sr_lat": "Jasno objašnjenje trening podataka, web scrapinga i zašto AI modeli sadrže tragove zaštićenih dela.",
+    "sr_cyr": "Јасно објашњење тренинг података, web scraping-а и зашто AI модели садрже трагове заштићених дела."
+  },
+  "guide.ch2.body": {
+    "en": "<h3>Training data: the fuel of AI</h3><p>Generative AI models — image generators, music composers, text tools — are built by feeding enormous datasets of existing creative work into machine-learning algorithms. The model learns patterns, styles, and structures from that data. Your posted illustrations, published songs, or online articles may have been part of that dataset without your knowledge.</p><h3>Why this is legally contested</h3><p>The EU's <strong>Copyright Directive (2019/790)</strong> introduced a <em>Text and Data Mining</em> (TDM) exception (Articles 3–4). Research organisations may scrape freely; commercial operators may scrape unless rightholders have explicitly opted out. Serbia has not yet enacted equivalent TDM rules, leaving a legal grey zone.</p><p>The key question is: does ingesting a copyrighted work into a training dataset constitute <em>reproduction</em> under copyright law? Courts in the US, EU, and UK are actively litigating this. No definitive ruling yet applies to Serbian law.</p><h3>Opt-out tools and ethical certification</h3><p><strong>Fairly Trained</strong> certifies AI companies that obtain proper licences before training. Look for this badge when choosing AI tools. Spawning.ai operates an opt-out registry that some AI companies respect — see Chapter 5 for how to submit your work.</p><div class='callout callout-warning'><strong>Key takeaway:</strong> If you have published work online, it is likely that at least one AI system has been trained on it. The law is evolving. This chapter explains how — later chapters explain what you can do about it.</div>",
+    "sr_lat": "<h3>Podaci za obuku: gorivo AI-ja</h3><p>Generativni AI modeli — generatori slika, kompozitori muzike, tekstualni alati — grade se ubacivanjem ogromnih skupova podataka postojećih kreativnih dela u algoritme mašinskog učenja. Model uči obrasce, stilove i strukture iz tih podataka. Vaše objavljene ilustracije, pesme ili članci mogli su biti deo tog skupa podataka bez vašeg znanja.</p><h3>Zašto je ovo pravno sporno</h3><p>EU <strong>Direktiva o autorskim pravima (2019/790)</strong> uvela je izuzetak za <em>rudarenje teksta i podataka</em> (TDM) (Čl. 3–4). Istraživačke organizacije mogu slobodno prikupljati podatke; komercijalni operateri mogu to činiti osim ako nosioci prava nisu izričito zatražili isključivanje. Srbija još nije donela ekvivalentna TDM pravila, što ostavlja pravnu sivu zonu.</p><p>Ključno pitanje je: da li unošenje autorskog dela u skup podataka za obuku predstavlja <em>reprodukciju</em> po zakonu o autorskim pravima? Sudovi u SAD, EU i UK aktivno vode parnice po ovom pitanju. Nijedna odlučujuća presuda još uvek ne važi za srpsko pravo.</p><h3>Alati za odustajanje i etička sertifikacija</h3><p><strong>Fairly Trained</strong> sertifikuje AI kompanije koje dobijaju odgovarajuće licence pre obuke. Tražite ovu oznaku kada birate AI alate. Spawning.ai vodi registar za odustajanje koji neke AI kompanije poštuju — pogledajte Poglavlje 5 za način prijavljivanja vašeg dela.</p><div class='callout callout-warning'><strong>Ključna poruka:</strong> Ako ste objavili dela na internetu, verovatno je da je barem jedan AI sistem bio obučen na njima. Zakon se menja. Ovo poglavlje objašnjava kako — kasnija poglavlja objašnjavaju šta možete da uradite po tom pitanju.</div>",
+    "sr_cyr": "<h3>Подаци за обуку: гориво AI-ја</h3><p>Генеративни AI модели — генератори слика, композитори музике, текстуални алати — граде се убацивањем огромних скупова података постојећих креативних дела у алгоритме машинског учења. Модел учи обрасце, стилове и структуре из тих података. Ваше објављене илустрације, песме или чланци могли су бити део тог скупа података без вашег знања.</p><h3>Зашто је ово правно спорно</h3><p>EU <strong>Директива о ауторским правима (2019/790)</strong> увела је изузетак за <em>рударење текста и података</em> (TDM) (Чл. 3–4). Истраживачке организације могу слободно прикупљати податке; комерцијални оператери могу то чинити осим ако носиоци права нису изричито затражили искључивање. Србија још није донела еквивалентна TDM правила, što оставља правну сиву зону.</p><p>Кључно питање је: да ли уношење ауторског дела у скуп података за обуку представља <em>репродукцију</em> по закону о ауторским правима? Судови у САД, ЕУ и УК активно воде парнице по овом питању. Ниједна одлучујућа пресуда још увек не важи за српско право.</p><h3>Алати за одустајање и етичка сертификација</h3><p><strong>Fairly Trained</strong> сертификује AI компаније које добијају одговарајуће лиценце пре обуке. Тражите ову ознаку kada birате AI алате. Spawning.ai води регистар за одустајање koji неке AI компаније поштују — погледајте Поглавље 5 за начин пријављивања вашег дела.</p><div class='callout callout-warning'><strong>Кључна порука:</strong> Ако сте објавили дела на интернету, вероватно је да је барем један AI систем bio обучен на њима. Закон се мења. Ово поглавље објашњава kako — каснија поглавља objašnjavaju šta možete da uradite po tom pitanju.</div>"
+  },
+  "guide.ch3.number": {
+    "en": "Chapter 3",
+    "sr_lat": "Poglavlje 3",
+    "sr_cyr": "Поглавље 3"
+  },
+  "guide.ch3.title": {
+    "en": "What Serbian law says",
+    "sr_lat": "Šta kaže srpski zakon",
+    "sr_cyr": "Шта каже српски закон"
+  },
+  "guide.ch3.lead": {
+    "en": "The Serbian Law on Copyright and Related Rights, its known gaps regarding AI, and relevant EU AI Act provisions.",
+    "sr_lat": "Srpski zakon o autorskom i srodnim pravima, njegovi poznati nedostaci u pogledu AI i relevantne odredbe EU AI akta.",
+    "sr_cyr": "Српски закон о ауторском и сродним правима, његови познати недостаци у погледу AI и релевантне одредбе EU AI акта."
+  },
+  "guide.ch3.body": {
+    "en": "<h3>Serbian Copyright Law</h3><p>Serbia's <strong>Law on Copyright and Related Rights</strong> gives you the exclusive right to authorise or prohibit any reproduction of your work — including digital copies made during AI training. If a company trained an AI on your work without a licence, that could constitute infringement.</p><p>You can seek: (a) a court injunction to stop further use; (b) actual damages or statutory damages; (c) attribution and moral-rights remedies.</p><h3>EU AI Act (Regulation 2024/1689)</h3><p>The EU AI Act, in force from August 2024, requires providers of general-purpose AI models to publish summaries of training data. This gives artists evidence to identify whether their work was used. While Serbia is not an EU member state, companies selling AI products into Serbia may still be subject to the Act.</p><h3>TDM opt-out under EU Copyright Directive</h3><p>Articles 3 and 4 of Directive 2019/790 create a Text and Data Mining exception. Crucially, <strong>Article 4(3)</strong> lets rightholders opt out of commercial TDM — meaning commercial AI training on your work is forbidden if you have signalled opt-out (e.g., via <code>robots.txt</code>, Spawning opt-out, or explicit licence terms). This is EU law, but major AI companies operating globally often respect it.</p><h3>Personal Data Protection</h3><p>If an AI system has processed images that identify you, or text containing your personal data, the <strong>Serbian Law on Personal Data Protection</strong> (mirroring GDPR) may give you rights of access, erasure, and objection. Contact the Commissioner for Information of Public Importance (Poverenik) to exercise these rights.</p><h3>Serbia AI Ethics Guidelines (2023) and AI Strategy 2025–2030</h3><p>These policy documents commit Serbia to principles of transparency, fairness, and human oversight of AI. Although not binding law, they give advocates a framework for lobbying and can inform court reasoning.</p><div class='callout callout-tip'><strong>In plain language:</strong> Serbian copyright law already protects you. The EU AI Act adds transparency duties on AI companies. The TDM opt-out is a practical tool you can use today. Data protection law may also apply if AI uses personal data about you.</div>",
+    "sr_lat": "<h3>Srpski zakon o autorskim pravima</h3><p>Srpski <strong>Zakon o autorskom i srodnim pravima</strong> daje vam isključivo pravo da odobrite ili zabranite svaku reprodukciju vašeg dela — uključujući digitalne kopije napravljene tokom obuke AI-ja. Ako je kompanija obučila AI na vašem delu bez licence, to bi moglo biti kršenje prava.</p><p>Možete tražiti: (a) sudsku zabranu daljeg korišćenja; (b) stvarnu ili zakonsku odštetu; (c) remedije za atribuciju i moralna prava.</p><h3>EU AI akt (Uredba 2024/1689)</h3><p>EU AI akt, koji je na snazi od avgusta 2024, zahteva od pružalaca modela AI opšte namene da objavljuju rezimee podataka za obuku. Ovo daje umetnicima dokaze da identifikuju da li je njihovo delo korišćeno. Mada Srbija nije zemlja članica EU, kompanije koje prodaju AI proizvode u Srbiji i dalje mogu biti predmet ovog Akta.</p><h3>TDM odustajanje prema EU Direktivi o autorskim pravima</h3><p>Čl. 3 i 4 Direktive 2019/790 stvaraju izuzetak za rudarenje teksta i podataka. Ključno, <strong>Čl. 4(3)</strong> omogućava nosiocima prava da se isključe iz komercijalnog TDM-a — što znači da je komercijalna AI obuka na vašem delu zabranjena ako ste signalizirali odustajanje (npr. putem <code>robots.txt</code>, Spawning odustajanja ili eksplicitnih uslova licence). Ovo je pravo EU, ali velike AI kompanije koje posluju globalno često ga poštuju.</p><h3>Zaštita ličnih podataka</h3><p>Ako je AI sistem obradio slike koje vas identifikuju, ili tekst koji sadrži vaše lične podatke, <strong>Srpski zakon o zaštiti podataka o ličnosti</strong> (koji ogleda GDPR) može vam dati prava na pristup, brisanje i prigovor. Kontaktirajte Poverenika za informacije od javnog značaja da biste ostvarili ova prava.</p><h3>Smernice za etiku AI u Srbiji (2023) i Strategija AI 2025–2030</h3><p>Ovi politički dokumenti obavezuju Srbiju na principe transparentnosti, pravednosti i ljudskog nadzora nad AI. Mada nisu obavezujuće pravo, daju zagovornicima okvir za lobiranje i mogu uticati na sudsko rasuđivanje.</p><div class='callout callout-tip'><strong>Jednostavno rečeno:</strong> Srpski zakon o autorskim pravima već vas štiti. EU AI akt dodaje obaveze transparentnosti za AI kompanije. TDM odustajanje je praktičan alat koji možete koristiti danas. Pravo zaštite podataka takođe može biti primenjivo ako AI koristi lične podatke o vama.</div>",
+    "sr_cyr": "<h3>Српски закон о ауторским правима</h3><p>Српски <strong>Закон о ауторском и сродним правима</strong> даје вам искључиво право да одобрите или забраните сваку репродукцију вашег дела — укључујући дигиталне копије направљене током обуке AI-ја. Ако је компанија обучила AI на вашем делу без лиценце, то би могло бити кршење права.</p><p>Можете тражити: (a) судску забрану даљег коришћења; (b) стварну или законску одштету; (c) remedije za atribuciju i moralna prava.</p><h3>EU AI акт (Уредба 2024/1689)</h3><p>EU AI акт, koji је на снази од августа 2024, захтева od пружалаца модела AI опште намене да објављују резимее података за обуку. Ово даје уметницима доказе да идентификују да ли је njihovo дело коришћено. Мада Србија није земља чланица ЕУ, компаније које продају AI производе у Србији и даље могу бити предмет овог Акта.</p><h3>TDM одустајање prema EU Директиви о ауторским правима</h3><p>Чл. 3 и 4 Директиве 2019/790 стварају изузетак за рударење текста и података. Кључно, <strong>Чл. 4(3)</strong> омогућава носиоцима права да се искључе из комерцијалног TDM-а — što znači da је комерцијална AI обука на вашем делу забрањена ако сте сигнализирали одустајање (нпр. путем <code>robots.txt</code>, Spawning одустајања или експлицитних услова лиценце). Ово је право ЕУ, али велике AI компаније koje послују глобално često ga poštuju.</p><h3>Заштита личних података</h3><p>Ако је AI систем обрадио слике koje вас идентификују, или текст koji садржи ваше личне податке, <strong>Српски закон о заштити података о личности</strong> (koji ogleda GDPR) може вам дати права на приступ, брисање и приговор. Контактирајте Повереника за информације од јавног значаја da biste ostvarili ova prava.</p><h3>Смернице за етику AI у Србији (2023) и Стратегија AI 2025–2030</h3><p>Ови политички документи обавезују Србију на принципе транспарентности, правичности и људског надзора над AI. Мада нису обавезујуће право, дају заговорницима оквир за лобирање и могу утицати на судско расуђивање.</p><div class='callout callout-tip'><strong>Просто речено:</strong> Српски закон о ауторским правима већ вас штити. EU AI акт додаје обавезе транспарентности за AI компаније. TDM одустајање је практичан алат koji možete koristiti danas. Право заштите података такође може бити примењиво ако AI користи личне податке о вама.</div>"
+  },
+  "guide.ch4.number": {
+    "en": "Chapter 4",
+    "sr_lat": "Poglavlje 4",
+    "sr_cyr": "Поглавље 4"
+  },
+  "guide.ch4.title": {
+    "en": "Your rights when AI uses your work",
+    "sr_lat": "Vaša prava kad AI koristi vaše delo",
+    "sr_cyr": "Ваша права кад AI користи ваше дело"
+  },
+  "guide.ch4.lead": {
+    "en": "Right to attribution, right to fair remuneration, moral rights — and what each means in practice for a freelance artist.",
+    "sr_lat": "Pravo na atribuciju, pravo na pravičnu naknadu, moralna prava — i šta svako od toga znači u praksi za freelance umetnika.",
+    "sr_cyr": "Право на атрибуцију, право на правичну накнаду, морална права — и шта свако од тога значи у пракси за freelance уметника."
+  },
+  "guide.ch4.body": {
+    "en": "<h3>Who owns AI output?</h3><p>When you use an AI tool to generate an image, text, or music, who owns the result? The answer depends on the level of human creative input involved.</p><p>Serbian law, like most copyright frameworks, requires a human author. Pure AI output — where you only type a simple prompt and accept the result — is likely <strong>not protected by copyright</strong> because there is no human creative expression. The AI company may claim ownership under their terms of service, or the output may be unprotectable.</p><h3>Human-AI collaboration</h3><p>If you substantially shape, curate, or modify AI output — selecting from hundreds of generations, editing the result, combining it with your own work — your creative contribution may be sufficient to establish copyright in the final work. Document your creative process carefully.</p><h3>Style is not copyrightable</h3><p>If an AI generates an image <em>in the style</em> of your work, this is not automatically infringement. Copyright protects specific expression, not style, genre, or technique. However, if the AI output contains elements that are substantially similar to your specific protected work, a claim may be possible.</p><h3>Transparency obligations under the EU AI Act</h3><p>The EU AI Act requires AI systems that generate synthetic content to label it as AI-generated. This transparency measure helps audiences distinguish human from AI creation and supports artists in the market. Companies violating this face significant fines.</p><div class='callout callout-warning'><strong>Practical tip:</strong> If you use AI tools in your creative practice, document your process. Notes, screenshots, and version histories showing your creative choices can help establish copyright in human-AI collaborative works.</div>",
+    "sr_lat": "<h3>Ko poseduje AI rezultate?</h3><p>Kada koristite AI alat za generisanje slike, teksta ili muzike, ko je vlasnik rezultata? Odgovor zavisi od nivoa uloženog ljudskog kreativnog doprinosa.</p><p>Srpski zakon, kao i većina okvira autorskih prava, zahteva ljudskog autora. Čist AI rezultat — gde samo upisujete jednostavan upit i prihvatate rezultat — verovatno <strong>nije zaštićen autorskim pravom</strong> jer nema ljudskog kreativnog izražavanja. AI kompanija može polagati pravo vlasništva prema svojim uslovima pružanja usluge, ili rezultat možda nije zaštitiv.</p><h3>Saradnja čoveka i AI-ja</h3><p>Ako suštinski oblikujete, kurirate ili menjate AI rezultate — birajući između stotina generacija, uređujući rezultat, kombinujući ga sa sopstvenim radom — vaš kreativni doprinos može biti dovoljan za uspostavljanje autorskog prava na finalnom delu. Pažljivo dokumentujte svoj kreativni proces.</p><h3>Stil nije zaštićen autorskim pravom</h3><p>Ako AI generiše sliku <em>u stilu</em> vašeg rada, to automatski nije kršenje prava. Autorsko pravo štiti specifičan izraz, a ne stil, žanr ili tehniku. Međutim, ako AI rezultat sadrži elemente koji su suštinski slični vašem specifičnom zaštićenom delu, tužba može biti moguća.</p><h3>Obaveze transparentnosti prema EU AI aktu</h3><p>EU AI akt zahteva od AI sistema koji generišu sintetički sadržaj da ga označe kao AI-generisan. Ova mera transparentnosti pomaže publici da razlikuje ljudske od AI kreacija i podržava umetnike na tržištu. Kompanije koje krše ovo suočavaju se sa značajnim kaznama.</p><div class='callout callout-warning'><strong>Praktičan savet:</strong> Ako koristite AI alate u svojoj kreativnoj praksi, dokumentujte svoj proces. Beleške, snimci ekrana i istorije verzija koje prikazuju vaše kreativne izbore mogu pomoći uspostavljanju autorskog prava u delima nastalim saradnjom čoveka i AI-ja.</div>",
+    "sr_cyr": "<h3>Ко поседује AI резултате?</h3><p>Када користите AI алат за генерисање слике, текста или музике, ко је власник резултата? Одговор зависи од нивоа уложеног људског креативног доприноса.</p><p>Српски закон, kao и већина оквира ауторских права, захтева људскoг аутора. Чист AI резултат — где само уписујете једноставан упит и прихватате резултат — вероватно <strong>није заштићен ауторским правом</strong> јер нема људског креативног изражавања. AI компанија може полагати право власништва prema svojим условима пружања услуге, или резултат можда није заштитив.</p><h3>Сарадња човека и AI-ја</h3><p>Ако суштински обликујете, курирате или мењате AI резултате — бирајући између стотина генерација, уређујући резултат, комбинујући ga са сопственим радом — ваш креативни допринос може бити довољан за успостављање ауторског права на финалном делу. Пажљиво документујте свој креативни процес.</p><h3>Стил није заштићен ауторским правом</h3><p>Ако AI генерише слику <em>у стилу</em> вашег рада, то аутоматски није кршење права. Ауторско право штити специфичан израз, а не стил, жанр или технику. Међутим, ако AI резултат садржи елементе koji су suštinski слични вашем специфичном заштићеном делу, тужба може бити могућа.</p><h3>Обавезе транспарентности prema EU AI акту</h3><p>EU AI акт захтева od AI система koji генеришу синтетички садржај da ga označe kao AI-генерисан. Ова мера транспарентности помаже публици да разликује људске od AI kreacija и подржава уметнике на тржишту. Компаније koje krše ovo suočavaju се са значајним казнама.</p><div class='callout callout-warning'><strong>Практичан савет:</strong> Ако користите AI алате у својој креативној пракси, документујте свој процес. Белешке, снимци екрана и историје верзија koje prikazuju ваше креативне изборе могу помоћи успостављању ауторског права у делима nastalim сарадњом човека и AI-ја.</div>"
+  },
+  "guide.ch5.number": {
+    "en": "Chapter 5",
+    "sr_lat": "Poglavlje 5",
+    "sr_cyr": "Поглавље 5"
+  },
+  "guide.ch5.title": {
+    "en": "How to recognise if your work was scraped",
+    "sr_lat": "Kako prepoznati da li je vaš rad preuzet bez dozvole",
+    "sr_cyr": "Како препознати да ли је ваш рад преузет без дозволе"
+  },
+  "guide.ch5.lead": {
+    "en": "Specific tools and step-by-step methods for detecting AI use of your work — and how to document evidence before it disappears.",
+    "sr_lat": "Konkretni alati i korak-po-korak metode za otkrivanje AI upotrebe vaših radova — i kako dokumentovati dokaze pre nego što nestanu.",
+    "sr_cyr": "Конкретни алати и корак-по-корак методе за откривање AI употребе ваших радова — и како документовати доказе пре него што нестану."
+  },
+  "guide.ch5.body": {
+    "en": "<h3>Can you find out if your work was used?</h3><p>Yes — several tools help you investigate whether your creative work appeared in AI training datasets or whether AI-generated content reproduces elements of your work.</p><h3>Scraping and dataset detection tools</h3><ul><li><strong>Have I Been Trained?</strong> (<a href='https://haveibeentrained.com' target='_blank' rel='noopener'>haveibeentrained.com</a>) — Search LAION-5B and other large image datasets used to train Stable Diffusion and similar models. Upload an image or search by artist name. If your work appears, you can submit an opt-out request directly.</li><li><strong>Spawning.ai</strong> (<a href='https://spawning.ai' target='_blank' rel='noopener'>spawning.ai</a>) — A comprehensive opt-out registry. Register your works and Spawning notifies participating AI companies not to use them in future training runs.</li><li><strong>Google Images reverse search</strong> — <a href='https://images.google.com' target='_blank' rel='noopener'>images.google.com</a> — Upload or paste a URL to find where your image appears online, including in AI-generated galleries or derivative works.</li><li><strong>TinEye</strong> (<a href='https://tineye.com' target='_blank' rel='noopener'>tineye.com</a>) — Reverse image search specialised in tracking image copies and derivatives across the web.</li><li><strong>Yandex Images</strong> (<a href='https://yandex.com/images' target='_blank' rel='noopener'>yandex.com/images</a>) — Often returns different results than Google; particularly useful for Eastern European web presence.</li></ul><h3>Documenting evidence: a 5-step protocol</h3><ol><li><strong>Screenshot everything</strong> — Capture the AI-generated output alongside the AI tool's interface, showing the prompt used and the date.</li><li><strong>Record the URL</strong> — Use the Wayback Machine (<a href='https://web.archive.org' target='_blank' rel='noopener'>web.archive.org</a>) to create a permanent archived copy of any page showing the infringing output.</li><li><strong>Compare side by side</strong> — Create a documented comparison of your original work and the AI output, noting specific similar elements (composition, colour palette, distinctive marks, text passages).</li><li><strong>Timestamp your originals</strong> — Verify you can prove when your original work was created: metadata in image files, publication dates, version control commits, or a notarised copy.</li><li><strong>Save the AI tool's terms of service</strong> — Archive the relevant version of the AI company's terms, which may contain admissions about training data or indemnity clauses relevant to your claim.</li></ol><div class='callout callout-tip'><strong>Start here today:</strong> Search your name or a distinctive work on Have I Been Trained?. If you find your work, click opt-out. Register with Spawning to cover future datasets. Both are free and take under ten minutes.</div>",
+    "sr_lat": "<h3>Možete li saznati da li je vaše delo korišćeno?</h3><p>Da — nekoliko alata vam pomaže da istražite da li se vaše kreativno delo pojavilo u skupovima podataka za obuku AI-ja ili da li AI-generisani sadržaj reprodukuje elemente vašeg dela.</p><h3>Alati za otkrivanje skupljanja i skupova podataka</h3><ul><li><strong>Have I Been Trained?</strong> (<a href='https://haveibeentrained.com' target='_blank' rel='noopener'>haveibeentrained.com</a>) — Pretražite LAION-5B i druge velike skupove podataka slika koji se koriste za obuku Stable Diffusion i sličnih modela. Otpremite sliku ili pretražite po imenu umetnika. Ako se vaše delo pojavi, možete direktno podneti zahtev za isključivanje.</li><li><strong>Spawning.ai</strong> (<a href='https://spawning.ai' target='_blank' rel='noopener'>spawning.ai</a>) — Sveobuhvatni registar za isključivanje. Registrujte svoja dela i Spawning obaveštava AI kompanije koje učestvuju da ih ne koriste u budućim sesijama obuke.</li><li><strong>Google pretraga slika</strong> — <a href='https://images.google.com' target='_blank' rel='noopener'>images.google.com</a> — Otpremite sliku ili nalepite URL da pronađete gde se vaša slika pojavljuje na mreži, uključujući u AI-generisanim galerijama ili izvedenim delima.</li><li><strong>TinEye</strong> (<a href='https://tineye.com' target='_blank' rel='noopener'>tineye.com</a>) — Obrnuta pretraga slika specijalizovana za praćenje kopija i derivata slika na vebu.</li><li><strong>Yandex slike</strong> (<a href='https://yandex.com/images' target='_blank' rel='noopener'>yandex.com/images</a>) — Često vraća različite rezultate od Gugla; posebno korisno za prisustvo na internetu u Istočnoj Evropi.</li></ul><h3>Dokumentovanje dokaza: protokol u 5 koraka</h3><ol><li><strong>Snimite sve</strong> — Zabeležite AI-generisani rezultat zajedno sa interfejsom AI alata, prikazujući korišćeni upit i datum.</li><li><strong>Zabeležite URL</strong> — Koristite Wayback Machine (<a href='https://web.archive.org' target='_blank' rel='noopener'>web.archive.org</a>) da napravite trajnu arhivsku kopiju svake stranice koja prikazuje sporni rezultat.</li><li><strong>Poređenje jedna uz drugu</strong> — Napravite dokumentovano poređenje vašeg originalnog dela i AI rezultata, beleženjem specifičnih sličnih elemenata (kompozicija, paleta boja, prepoznatljive oznake, pasusi teksta).</li><li><strong>Označite vremenom vaše originale</strong> — Proverite da možete dokazati kada je vaše originalno delo nastalo: metapodaci u fajlovima slika, datumi objavljivanja, urezivanje u kontrolu verzija ili overena kopija.</li><li><strong>Sačuvajte uslove pružanja usluge AI alata</strong> — Arhivirajte relevantnu verziju uslova AI kompanije, koji mogu sadržati priznanja o podacima za obuku ili klauzule o odšteti relevantne za vaš zahtev.</li></ol><div class='callout callout-tip'><strong>Počnite danas:</strong> Pretražite svoje ime ili prepoznatljivo delo na Have I Been Trained?. Ako pronađete svoje delo, kliknite na odustajanje. Registrujte se na Spawning da pokrijete buduće skupove podataka. Oba su besplatna i traju manje od deset minuta.</div>",
+    "sr_cyr": "<h3>Можете ли сазнати да ли је ваше дело коришћено?</h3><p>Да — неколико алата вам помаже да истражите да ли се ваше креативно дело појавило у скуповима података за обуку AI-ја или да ли AI-генерисани садржај репродукује елементе вашег дела.</p><h3>Алати за откривање скупљања и скупова података</h3><ul><li><strong>Have I Been Trained?</strong> (<a href='https://haveibeentrained.com' target='_blank' rel='noopener'>haveibeentrained.com</a>) — Претражите LAION-5B и друге велике скупове података слика koji се користе за обуку Stable Diffusion и сличних модела. Отпремите слику или претражите по имену уметника. Ако се ваше дело појави, можете директно поднети захтев за искључивање.</li><li><strong>Spawning.ai</strong> (<a href='https://spawning.ai' target='_blank' rel='noopener'>spawning.ai</a>) — Свеобухватни регистар за искључивање. Региструјте своја дела и Spawning обавештава AI компаније koje учествuju da их не користе у будућим сесијама обуке.</li><li><strong>Google претрага слика</strong> — <a href='https://images.google.com' target='_blank' rel='noopener'>images.google.com</a> — Отпремите слику или налепите URL da pronađete gde se vaša slika pojavljuje на мрежи, ukljucujuci u AI-генерисаним галеријама или изведеним делима.</li><li><strong>TinEye</strong> (<a href='https://tineye.com' target='_blank' rel='noopener'>tineye.com</a>) — Обрнута претрага слика специјализована за праћење копија и деривата слика на вебу.</li><li><strong>Yandex слике</strong> (<a href='https://yandex.com/images' target='_blank' rel='noopener'>yandex.com/images</a>) — Ofte vraća različite rezultate od Gugla; посебно корисно за присуство на интернету у Источној Европи.</li></ul><h3>Документовање доказа: протокол у 5 корака</h3><ol><li><strong>Снимите све</strong> — Забележите AI-генерисани резултат заједно са интерфејсом AI алата, приказујући коришћени упит и датум.</li><li><strong>Забележите URL</strong> — Користите Wayback Machine (<a href='https://web.archive.org' target='_blank' rel='noopener'>web.archive.org</a>) da napravite trajnu arhivsku kopiju stranice koja prikazuje sporni резултат.</li><li><strong>Поређење једна уз другу</strong> — Направите документовано поређење вашег оригиналног дела и AI резултата, бележењем специфичних сличних елемената (композиција, палета боја, препознатљиве ознаке, пасуси текста).</li><li><strong>Означите временом ваше оригинале</strong> — Проверите да можете доказати када је ваше оригинално дело настало: метаподаци у фајловима слика, датуми објављивања, урезивање у контролу верзија или оверена копија.</li><li><strong>Сачувајте услове пружања услуге AI алата</strong> — Архивирајте релевантну верзију услова AI компаније, koji mogu sadržati признања о подацима за обуку или клаузуле о одштети релевантне за ваш захтев.</li></ol><div class='callout callout-tip'><strong>Почните данас:</strong> Претражите своје ime ili prepoznatljivo дело на Have I Been Trained?. Ако пронађете своје дело, кликните на одустајање. Региструјте се на Spawning да покријете будуће скупове података. Оба су бесплатна и трају мање од десет минута.</div>"
+  },
+  "guide.ch6.number": {
+    "en": "Chapter 6",
+    "sr_lat": "Poglavlje 6",
+    "sr_cyr": "Поглавље 6"
+  },
+  "guide.ch6.title": {
+    "en": "What you can do",
+    "sr_lat": "Šta možete da uradite",
+    "sr_cyr": "Шта можете да урадите"
+  },
+  "guide.ch6.lead": {
+    "en": "Reporting, asserting rights, and where to seek help: the Serbian Intellectual Property Office, NKSS, the EU AI Office, and more.",
+    "sr_lat": "Prijave, zaštita prava i gde potražiti pomoć: Zavod za intelektualnu svojinu Srbije, NKSS, EU kancelarija za AI i više.",
+    "sr_cyr": "Пријаве, заштита права и где потражити помоћ: Завод за интелектуалну својину Србије, НКСС, EU канцеларија за AI и више."
+  },
+  "guide.ch6.body": {
+    "en": "<h3>Eight steps to protect yourself and shape policy</h3><ol><li><strong>Opt out of AI datasets</strong> — Use Have I Been Trained? and Spawning.ai (see Chapter 5). Add an opt-out statement to your website and <code>robots.txt</code> disallowing AI crawlers.</li><li><strong>Document infringement</strong> — Follow the five-step evidence protocol in Chapter 5. Preserve all evidence before contacting anyone.</li><li><strong>Contact the AI company</strong> — Most large AI companies (OpenAI, Stability AI, Google, Midjourney) have a DMCA / copyright contact. Send a written notice identifying your work, the infringing output, and requesting removal and cessation.</li><li><strong>File a complaint with the Serbian Copyright Office (ZIS)</strong> — The Intellectual Property Office of Serbia (<a href='https://www.zis.gov.rs' target='_blank' rel='noopener'>zis.gov.rs</a>) handles copyright complaints. Provide your documentation and request an investigation.</li><li><strong>Contact your collecting society</strong> — If you are a member of NKSS (visual artists) or SOKOJ (music), inform them. Collective management organisations are increasingly active in AI negotiations and may act on your behalf.</li><li><strong>File a data protection complaint</strong> — If personal data is involved, file a complaint with the Commissioner for Information of Public Importance and Personal Data Protection (<a href='https://www.poverenik.rs' target='_blank' rel='noopener'>poverenik.rs</a>).</li><li><strong>Engage with the EU AI Office</strong> — The EU AI Act's general-purpose AI provisions are enforced by the EU AI Office. Submit feedback on AI model transparency at <a href='https://digital-strategy.ec.europa.eu/en/policies/ai-office' target='_blank' rel='noopener'>digital-strategy.ec.europa.eu</a>.</li><li><strong>Advocate collectively</strong> — Join or support artist organisations engaging with the Ministry of Culture and Ministry of Information. The Serbia AI Strategy 2025–2030 is open to public consultation. Your voice matters.</li></ol><div class='callout callout-info'><strong>Quick reference contacts</strong><br>• ZIS (Intellectual Property Office): <a href='https://www.zis.gov.rs' target='_blank' rel='noopener'>zis.gov.rs</a><br>• Poverenik (Data Protection): <a href='https://www.poverenik.rs' target='_blank' rel='noopener'>poverenik.rs</a><br>• SOKOJ (music): <a href='https://www.sokoj.rs' target='_blank' rel='noopener'>sokoj.rs</a><br>• NKSS (visual artists): <a href='https://www.nkss.rs' target='_blank' rel='noopener'>nkss.rs</a><br>• EU AI Office: <a href='https://digital-strategy.ec.europa.eu/en/policies/ai-office' target='_blank' rel='noopener'>digital-strategy.ec.europa.eu</a></div><p class='footnote'><sup>*</sup> Serbia's <em>Law on Electronic Commerce and Information Security</em> may also be relevant where AI systems operate as information society services or process data in ways that affect information security obligations.</p>",
+    "sr_lat": "<h3>Osam koraka za zaštitu sebe i oblikovanje politike</h3><ol><li><strong>Isključite se iz AI skupova podataka</strong> — Koristite Have I Been Trained? i Spawning.ai (pogledajte Poglavlje 5). Dodajte izjavu o isključivanju na vaš vebsajt i <code>robots.txt</code> zabranjujući AI bote za prikupljanje.</li><li><strong>Dokumentujte kršenje</strong> — Sledite protokol dokaza u pet koraka iz Poglavlja 5. Sačuvajte sve dokaze pre nego što kontaktirate bilo koga.</li><li><strong>Kontaktirajte AI kompaniju</strong> — Većina velikih AI kompanija (OpenAI, Stability AI, Google, Midjourney) ima DMCA/autorska prava kontakt. Pošaljite pisano obaveštenje identifikujući vaše delo, sporni rezultat i tražeći uklanjanje i prestanak.</li><li><strong>Podnesite žalbu Zavodu za intelektualnu svojinu (ZIS)</strong> — Zavod za intelektualnu svojinu Srbije (<a href='https://www.zis.gov.rs' target='_blank' rel='noopener'>zis.gov.rs</a>) obrađuje žalbe u vezi autorskih prava. Dostavite svoju dokumentaciju i zatražite istragu.</li><li><strong>Kontaktirajte svoju organizaciju za kolektivno ostvarivanje prava</strong> — Ako ste član NKSS-a (vizuelni umetnici) ili SOKOJ-a (muzika), obavestite ih. Organizacije za kolektivno upravljanje su sve aktivnije u pregovorima o AI-ju i mogu delovati u vaše ime.</li><li><strong>Podnesite žalbu za zaštitu podataka</strong> — Ako su uključeni lični podaci, podnesite žalbu Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti (<a href='https://www.poverenik.rs' target='_blank' rel='noopener'>poverenik.rs</a>).</li><li><strong>Angažujte se sa EU AI kancelarijom</strong> — Odredbe EU AI akta o AI opšte namene sprovodi EU AI kancelarija. Dostavite povratne informacije o transparentnosti AI modela na <a href='https://digital-strategy.ec.europa.eu/en/policies/ai-office' target='_blank' rel='noopener'>digital-strategy.ec.europa.eu</a>.</li><li><strong>Zagovarajte kolektivno</strong> — Pridružite se ili podržite umetničke organizacije koje se bave Ministarstvom kulture i Ministarstvom informisanja. Srpska strategija AI 2025–2030 otvorena je za javne konsultacije. Vaš glas je važan.</li></ol><div class='callout callout-info'><strong>Brzi referentni kontakti</strong><br>• ZIS (Zavod za intelektualnu svojinu): <a href='https://www.zis.gov.rs' target='_blank' rel='noopener'>zis.gov.rs</a><br>• Poverenik (zaštita podataka): <a href='https://www.poverenik.rs' target='_blank' rel='noopener'>poverenik.rs</a><br>• SOKOJ (muzika): <a href='https://www.sokoj.rs' target='_blank' rel='noopener'>sokoj.rs</a><br>• NKSS (vizuelni umetnici): <a href='https://www.nkss.rs' target='_blank' rel='noopener'>nkss.rs</a><br>• EU AI kancelarija: <a href='https://digital-strategy.ec.europa.eu/en/policies/ai-office' target='_blank' rel='noopener'>digital-strategy.ec.europa.eu</a></div><p class='footnote'><sup>*</sup> Srpski <em>Zakon o elektronskoj trgovini i informacionoj bezbednosti</em> takođe može biti relevantan gde AI sistemi funkcionišu kao usluge informacionog društva ili obrađuju podatke na načine koji utiču na obaveze informacione bezbednosti.</p>",
+    "sr_cyr": "<h3>Осам корака за заштиту себе и обликовање политике</h3><ol><li><strong>Искључите се из AI скупова података</strong> — Користите Have I Been Trained? и Spawning.ai (погледајте Поглавље 5). Додајте изјаву о искључивању на ваш вебсајт и <code>robots.txt</code> забрањујући AI боте за прикупљање.</li><li><strong>Документујте кршење</strong> — Следите протокол доказа у пет корака из Поглавља 5. Сачувајте све доказе пре него što контактирате bilo кога.</li><li><strong>Контактирајте AI компанију</strong> — Већина великих AI компанија (OpenAI, Stability AI, Google, Midjourney) има DMCA/ауторска права контакт. Пошаљите писано обавештење идентификујући ваше дело, спорни резултат и тражећи уклањање и престанак.</li><li><strong>Поднесите жалбу Заводу за интелектуалну својину (ZIS)</strong> — Завод за интелектуалну својину Србије (<a href='https://www.zis.gov.rs' target='_blank' rel='noopener'>zis.gov.rs</a>) обрађује жалбе у вези ауторских права. Доставите своју документацију и затражите истрагу.</li><li><strong>Контактирајте своју организацију за колективно остваривање права</strong> — Ако сте члан NKSS-а (визуелни уметници) или SOKOJ-а (музика), обавестите их. Организације за колективно управљање су све активније у преговорима о AI-ју и могу деловати у ваше ime.</li><li><strong>Поднесите жалбу за заштиту података</strong> — Ако су укључени лични подаци, поднесите жалбу Поверенику за информације од јавног значаја и заштиту података о личности (<a href='https://www.poverenik.rs' target='_blank' rel='noopener'>poverenik.rs</a>).</li><li><strong>Ангажујте се са EU AI канцеларијом</strong> — Одредбе EU AI акта о AI опште намене спроводи EU AI канцеларија. Доставите повратне информације о транспарентности AI модела на <a href='https://digital-strategy.ec.europa.eu/en/policies/ai-office' target='_blank' rel='noopener'>digital-strategy.ec.europa.eu</a>.</li><li><strong>Заговарајте колективно</strong> — Придружите се или подржите уметничке организације koje se bave Министарством културе и Министарством информисања. Српска стратегија AI 2025–2030 отворена је за јавне консултације. Ваш глас је важан.</li></ol><div class='callout callout-info'><strong>Брзи референтни контакти</strong><br>• ZIS (Завод за интелектуалну својину): <a href='https://www.zis.gov.rs' target='_blank' rel='noopener'>zis.gov.rs</a><br>• Poverenik (zaštita podataka): <a href='https://www.poverenik.rs' target='_blank' rel='noopener'>poverenik.rs</a><br>• SOKOJ (muzika): <a href='https://www.sokoj.rs' target='_blank' rel='noopener'>sokoj.rs</a><br>• NKSS (vizuelni umetnici): <a href='https://www.nkss.rs' target='_blank' rel='noopener'>nkss.rs</a><br>• EU AI канцеларија: <a href='https://digital-strategy.ec.europa.eu/en/policies/ai-office' target='_blank' rel='noopener'>digital-strategy.ec.europa.eu</a></div><p class='footnote'><sup>*</sup> Srpski <em>Zakon o elektronskoj trgovini i informacionoj bezbednosti</em> también може бити релевантан gdje AI системи функционишу kao услуге информационог друштва или обрађују податке на начине koji утичу на обавезе информационе безбедности.</p>"
+  },
+  "guide.nav.prev": {
+    "en": "← Previous chapter",
+    "sr_lat": "← Prethodno poglavlje",
+    "sr_cyr": "← Претходно поглавље"
+  },
+  "guide.nav.next": {
+    "en": "Next chapter →",
+    "sr_lat": "Sledeće poglavlje →",
+    "sr_cyr": "Следеће поглавље →"
+  },
+  "guide.updated": {
+    "en": "Last reviewed",
+    "sr_lat": "Poslednji pregled",
+    "sr_cyr": "Последњи преглед"
+  },
+  "assessment.tag": {
+    "en": "Self-Assessment Toolkit",
+    "sr_lat": "Alat za samoprocenu",
+    "sr_cyr": "Алат за самопроцену"
+  },
+  "assessment.title": {
+    "en": "Find out your AI copyright risk profile",
+    "sr_lat": "Otkrijte vaš profil AI autorskog rizika",
+    "sr_cyr": "Откријте ваш профил AI ауторског ризика"
+  },
+  "assessment.lead": {
+    "en": "Answer a few questions about your creative practice. No legal knowledge needed. Nothing you enter leaves your browser.",
+    "sr_lat": "Odgovorite na nekoliko pitanja o vašoj kreativnoj praksi. Nije potrebno pravno znanje. Ništa što unesete ne napušta vaš pretraživač.",
+    "sr_cyr": "Одговорите на неколико питања о вашој креативној пракси. Није потребно правно знање. Ништа што унесете не напушта ваш претраживач."
+  },
+  "step1.tag": {
+    "en": "Step 1 of 4",
+    "sr_lat": "Korak 1 od 4",
+    "sr_cyr": "Корак 1 од 4"
+  },
+  "step1.title": {
+    "en": "What kind of creator are you?",
+    "sr_lat": "Kakav tip stvaraoca ste vi?",
+    "sr_cyr": "Какав тип ствараоца сте ви?"
+  },
+  "step1.lead": {
+    "en": "Select the option that best describes your primary creative practice.",
+    "sr_lat": "Izaberite opciju koja najbolje opisuje vašu primarnu kreativnu praksu.",
+    "sr_cyr": "Изаберите опцију која најбоље описује вашу примарну креативну праксу."
+  },
+  "step1.q1": {
+    "en": "My primary creative work is:",
+    "sr_lat": "Moj primarni kreativni rad je:",
+    "sr_cyr": "Мој примарни креативни рад је:"
+  },
+  "step1.opt.visual": {
+    "en": "Visual art (illustration, painting, drawing, fine art)",
+    "sr_lat": "Vizuelna umetnost (ilustracija, slikarstvo, crtanje, likovne umetnosti)",
+    "sr_cyr": "Визуелна уметност (илустрација, сликарство, цртање, ликовне уметности)"
+  },
+  "step1.opt.music": {
+    "en": "Music (composition, performance, production, sound design)",
+    "sr_lat": "Muzika (kompozicija, izvođenje, produkcija, zvučni dizajn)",
+    "sr_cyr": "Музика (композиција, извођење, продукција, звучни дизајн)"
+  },
+  "step1.opt.writing": {
+    "en": "Writing (fiction, journalism, poetry, essays, criticism)",
+    "sr_lat": "Pisanje (fikcija, novinarstvo, poezija, eseji, kritika)",
+    "sr_cyr": "Писање (фикција, новинарство, поезија, есеји, критика)"
+  },
+  "step1.opt.design": {
+    "en": "Design (graphic design, UX/UI, branding, photography)",
+    "sr_lat": "Dizajn (grafički dizajn, UX/UI, brendiranje, fotografija)",
+    "sr_cyr": "Дизајн (графички дизајн, UX/UI, брендирање, фотографија)"
+  },
+  "step1.opt.other": {
+    "en": "Other / multiple disciplines",
+    "sr_lat": "Drugo / više disciplina",
+    "sr_cyr": "Друго / више дисциплина"
+  },
+  "step1.q2": {
+    "en": "I primarily share my work:",
+    "sr_lat": "Uglavnom delim svoje radove:",
+    "sr_cyr": "Углавном делим своје радове:"
+  },
+  "step1.opt.online": {
+    "en": "Online (social media, personal website, portfolio platforms)",
+    "sr_lat": "Online (društvene mreže, lični sajt, portfolio platforme)",
+    "sr_cyr": "Online (друштвене мреже, лични сајт, портфолио платформе)"
+  },
+  "step1.opt.both": {
+    "en": "Both online and offline",
+    "sr_lat": "I online i offline",
+    "sr_cyr": "И online и offline"
+  },
+  "step1.opt.offline": {
+    "en": "Primarily offline (galleries, print, live)",
+    "sr_lat": "Pretežno offline (galerije, print, uživo)",
+    "sr_cyr": "Претежно offline (галерије, принт, уживо)"
+  },
+  "step2.tag": {
+    "en": "Step 2 of 4",
+    "sr_lat": "Korak 2 od 4",
+    "sr_cyr": "Корак 2 од 4"
+  },
+  "step2.title": {
+    "en": "Which scenario feels most relevant to you?",
+    "sr_lat": "Koji scenario vam se čini najrelevantnijim?",
+    "sr_cyr": "Који сценарио вам се чини најрелевантнијим?"
+  },
+  "step2.lead": {
+    "en": "Read each scenario and select the one that best matches your situation or concern.",
+    "sr_lat": "Pročitajte svaki scenario i izaberite onaj koji se najviše podudara sa vašom situacijom ili brigom.",
+    "sr_cyr": "Прочитајте сваки сценарио и изаберите онај који се највише подудара са вашом ситуацијом или бригом."
+  },
+  "scenario.a.tag": {
+    "en": "Scenario A · Visual artists",
+    "sr_lat": "Scenario A · Vizuelni umetnici",
+    "sr_cyr": "Сценарио A · Визуелни уметници"
+  },
+  "scenario.a.name": {
+    "en": "The Scraped Portfolio",
+    "sr_lat": "Ukradeni portfolio",
+    "sr_cyr": "Украдени портфолио"
+  },
+  "scenario.a.story": {
+    "en": "Ana is a freelance illustrator from Novi Sad. A colleague sends her AI-generated images that look unmistakably like her work — same palette, same character proportions, same linework. She never gave permission for her work to be used as training data.",
+    "sr_lat": "Ana je slobodna ilustratorka iz Novog Sada. Koleginica joj šalje AI-generisane slike koje nepogrešivo liče na njen rad — ista paleta, iste proporcije likova, isti linijski crtež. Nikada nije dala dozvolu da se njeni radovi koriste kao podaci za treniranje.",
+    "sr_cyr": "Ана је слободна илустраторка из Новог Сада. Колегиница јој шаље AI-генерисане слике које непогрешиво личе на њен рад — иста палета, исте пропорције ликова, исти линијски цртеж. Никада није дала дозволу да се њени радови користе као подаци за тренирање."
+  },
+  "scenario.a.covers": {
+    "en": "Covers: style vs. copyright · Have I Been Trained? · Spawning.ai opt-out · Evidence documentation · Reporting options",
+    "sr_lat": "Obuhvata: stil nasuprot autorskih prava · Have I Been Trained? · Spawning.ai odjava · Dokumentovanje dokaza · Opcije prijave",
+    "sr_cyr": "Обухвата: стил насупрот ауторских права · Have I Been Trained? · Spawning.ai одјава · Документовање доказа · Опције пријаве"
+  },
+  "scenario.b.tag": {
+    "en": "Scenario B · Musicians",
+    "sr_lat": "Scenario B · Muzičari",
+    "sr_cyr": "Сценарио B · Музичари"
+  },
+  "scenario.b.name": {
+    "en": "The Training Dataset Musician",
+    "sr_lat": "Muzičar u skupu podataka",
+    "sr_cyr": "Музичар у скупу података"
+  },
+  "scenario.b.story": {
+    "en": "Marko is an independent musician from Belgrade releasing music on Bandcamp and streaming platforms. He discovers his recordings appear in a publicly listed AI music training dataset. He never consented and receives no compensation.",
+    "sr_lat": "Marko je nezavisni muzičar iz Beograda koji objavljuje muziku na Bandcamp-u i streaming platformama. Otkriva da se njegovi snimci nalaze u javno dostupnom skupu podataka za treniranje AI muzičkih alata. Nikada nije dao saglasnost i ne prima nikakvu naknadu.",
+    "sr_cyr": "Марко је независни музичар из Београда који објављује музику на Bandcamp-у и streaming платформама. Открива да се његови снимци налазе у јавно доступном скупу података за тренирање AI музичких алата. Никада није дао сагласност и не прима никакву накнаду."
+  },
+  "scenario.b.covers": {
+    "en": "Covers: dataset opt-out requests · Serbian copyright law procedures · SOKOJ · Documenting harm · Platform terms",
+    "sr_lat": "Obuhvata: zahtevi za odjavu iz skupa podataka · Postupci srpskog autorskog prava · SOKOJ · Dokumentovanje štete · Uslovi platforme",
+    "sr_cyr": "Обухвата: захтеви за одјаву из скупа података · Поступци српског ауторског права · SOKOJ · Документовање штете · Услови платформе"
+  },
+  "scenario.c.tag": {
+    "en": "Scenario C · Writers",
+    "sr_lat": "Scenario C · Pisci",
+    "sr_cyr": "Сценарио C · Писци"
+  },
+  "scenario.c.name": {
+    "en": "The Ghostwritten Text",
+    "sr_lat": "Tekst koji nije vaš",
+    "sr_cyr": "Текст који није ваш"
+  },
+  "scenario.c.story": {
+    "en": "Jelena is a journalist and writer whose long-form essays have appeared in Serbian literary magazines for fifteen years. Colleagues tell her that an AI assistant produces text that sounds exactly like her — her cadence, vocabulary, structural choices — though no specific text has been copied.",
+    "sr_lat": "Jelena je novinarka i spisateljica čiji se dugi eseji objavljuju u srpskim književnim časopisima petnaest godina. Kolege joj govore da AI asistent piše tekstove koji zvuče tačno kao ona — njen ritam, rečnik, strukturalni izbori — iako nijedan konkretan tekst nije kopiran.",
+    "sr_cyr": "Јелена је новинарка и списатељица чији се дуги есеји објављују у српским књижевним часописима петнаест година. Колеге јој говоре да AI асистент пише текстове који звуче тачно као она — њен ритам, речник, структурални избори — иако ниједан конкретан текст није копиран."
+  },
+  "scenario.c.covers": {
+    "en": "Covers: limits of style copyright · Substantial similarity · What you can demand · Policy brief grounds",
+    "sr_lat": "Obuhvata: granice zaštite stila · Suštinska sličnost · Šta možete zahtevati · Osnova za policy brief",
+    "sr_cyr": "Обухвата: границе заштите стила · Суштинска сличност · Шта можете захтевати · Основа за policy brief"
+  },
+  "scenario.d.tag": {
+    "en": "Scenario D · Designers",
+    "sr_lat": "Scenario D · Dizajneri",
+    "sr_cyr": "Сценарио D · Дизајнери"
+  },
+  "scenario.d.name": {
+    "en": "The Design Platform Trap",
+    "sr_lat": "Zamka dizajn platforme",
+    "sr_cyr": "Замка дизајн платформе"
+  },
+  "scenario.d.story": {
+    "en": "Stefan is a freelance designer who has used a popular design platform for years to store and share his portfolio. He discovers the platform updated its terms to allow using uploaded work for AI training — retroactively, with the opt-out buried in account settings.",
+    "sr_lat": "Stefan je slobodni dizajner koji godinama koristi popularnu platformu za dizajn za čuvanje i deljenje svog portfolija. Otkriva da je platforma ažurirala uslove korišćenja kako bi dozvolila upotrebu otpremljenih radova za AI treniranje — retroaktivno, sa opcijom odjave skrivenom u podešavanjima naloga.",
+    "sr_cyr": "Стефан је слободни дизајнер који годинама користи популарну платформу за дизајн за чување и дељење свог портфолија. Открива да је платформа ажурирала услове коришћења kako би дозволила употребу отпремљених радова за AI тренирање — ретроактивно, са опцијом одјаве скривеном у подешавањима налога."
+  },
+  "scenario.d.covers": {
+    "en": "Covers: reading platform Terms of Service · AI-training clauses · Opt-out mechanisms · Retroactive consent under Serbian law",
+    "sr_lat": "Obuhvata: čitanje uslova korišćenja platforme · AI klauzule o treniranju · Mehanizmi za odjavu · Retroaktivna saglasnost prema srpskom zakonu",
+    "sr_cyr": "Обухвата: читање услова коришћења платформе · AI клаузуле о тренирању · Механизми за одјаву · Ретроактивна сагласност према српском закону"
+  },
+  "step3.tag": {
+    "en": "Step 3 of 4",
+    "sr_lat": "Korak 3 od 4",
+    "sr_cyr": "Корак 3 од 4"
+  },
+  "step3.title": {
+    "en": "Your situation",
+    "sr_lat": "Vaša situacija",
+    "sr_cyr": "Ваша ситуација"
+  },
+  "step3.q1": {
+    "en": "Does this scenario feel relevant to your practice?",
+    "sr_lat": "Da li vam se ovaj scenario čini relevantnim za vašu praksu?",
+    "sr_cyr": "Да ли вам се овај сценарио чини релевантним за вашу праксу?"
+  },
+  "step3.opt.happened": {
+    "en": "Yes, this has happened to me",
+    "sr_lat": "Da, ovo mi se dogodilo",
+    "sr_cyr": "Да, ово ми се догодило"
+  },
+  "step3.opt.suspect": {
+    "en": "I suspect something like this",
+    "sr_lat": "Sumnjam da se nešto slično dogodilo",
+    "sr_cyr": "Сумњам да се нешто слично догодило"
+  },
+  "step3.opt.worried": {
+    "en": "I am worried it could happen",
+    "sr_lat": "Brine me da bi se moglo dogoditi",
+    "sr_cyr": "Брине ме да би се могло догодити"
+  },
+  "step3.opt.notrelevant": {
+    "en": "Not really relevant to me",
+    "sr_lat": "Nije baš relevantno za mene",
+    "sr_cyr": "Није баш релевантно за мене"
+  },
+  "step3.q2": {
+    "en": "Have you taken any steps to protect yourself or document this?",
+    "sr_lat": "Da li ste preduzeli neke korake da zaštitite sebe ili dokumentujete ovo?",
+    "sr_cyr": "Да ли сте предузели неке кораке да заштитите себе или документујете ово?"
+  },
+  "step3.opt.yes": {
+    "en": "Yes, I have taken steps",
+    "sr_lat": "Da, preduzeo/la sam korake",
+    "sr_cyr": "Да, предузео/ла сам кораке"
+  },
+  "step3.opt.no": {
+    "en": "No, I have not",
+    "sr_lat": "Ne, nisam",
+    "sr_cyr": "Не, нисам"
+  },
+  "step3.opt.notsure": {
+    "en": "I am not sure what to do",
+    "sr_lat": "Nisam siguran/na šta da radim",
+    "sr_cyr": "Нисам сигуран/на шта да радим"
+  },
+  "step4.tag": {
+    "en": "Step 4 of 4 — Your results",
+    "sr_lat": "Korak 4 od 4 — Vaši rezultati",
+    "sr_cyr": "Корак 4 од 4 — Ваши резултати"
+  },
+  "step4.title": {
+    "en": "Your risk summary and next steps",
+    "sr_lat": "Vaš profil rizika i sledeći koraci",
+    "sr_cyr": "Ваш профил ризика и следећи кораци"
+  },
+  "step4.risk.label": {
+    "en": "Your exposure level:",
+    "sr_lat": "Vaš nivo izloženosti:",
+    "sr_cyr": "Ваш ниво изложености:"
+  },
+  "step4.risk.high": {
+    "en": "Action recommended",
+    "sr_lat": "Preporučuje se akcija",
+    "sr_cyr": "Препоручује се акција"
+  },
+  "step4.risk.medium": {
+    "en": "Caution advised",
+    "sr_lat": "Savetuje se oprez",
+    "sr_cyr": "Саветује се опрез"
+  },
+  "step4.risk.low": {
+    "en": "Stay aware",
+    "sr_lat": "Ostanite informisani",
+    "sr_cyr": "Останите информисани"
+  },
+  "step4.steps.title": {
+    "en": "Recommended next steps",
+    "sr_lat": "Preporučeni sledeći koraci",
+    "sr_cyr": "Препоручени следећи кораци"
+  },
+  "step4.export": {
+    "en": "Print / Save as PDF",
+    "sr_lat": "Štampaj / Sačuvaj kao PDF",
+    "sr_cyr": "Штампај / Сачувај као PDF"
+  },
+  "step4.restart": {
+    "en": "Start again",
+    "sr_lat": "Počnite ponovo",
+    "sr_cyr": "Почните поново"
+  },
+  "step4.brief": {
+    "en": "Build a Policy Brief",
+    "sr_lat": "Napravite Policy Brief",
+    "sr_cyr": "Направите Policy Brief"
+  },
+  "brief.tag": {
+    "en": "Policy Brief Template",
+    "sr_lat": "Predložak za Policy Brief",
+    "sr_cyr": "Предложак за Policy Brief"
+  },
+  "brief.title": {
+    "en": "Build and export your advocacy document",
+    "sr_lat": "Napravite i izvezite vaš zagovarački dokument",
+    "sr_cyr": "Направите и извезите ваш заговарачки документ"
+  },
+  "brief.lead": {
+    "en": "Fill in the fields below. The preview updates live. Export as PDF when ready.",
+    "sr_lat": "Popunite polja ispod. Pregled se ažurira uživo. Izvezite kao PDF kada budete spremni.",
+    "sr_cyr": "Попуните поља испод. Преглед се ажурира уживо. Извезите као PDF када будете спремни."
+  },
+  "brief.s1.title": {
+    "en": "Your details",
+    "sr_lat": "Vaši podaci",
+    "sr_cyr": "Ваши подаци"
+  },
+  "brief.s2.title": {
+    "en": "Problem statement",
+    "sr_lat": "Opis problema",
+    "sr_cyr": "Опис проблема"
+  },
+  "brief.s3.title": {
+    "en": "Our demands",
+    "sr_lat": "Naši zahtevi",
+    "sr_cyr": "Наши захтеви"
+  },
+  "brief.s3.hint": {
+    "en": "Select the demands you want to include. You may choose one or more.",
+    "sr_lat": "Izaberite zahteve koje želite da uključite. Možete izabrati jedan ili više.",
+    "sr_cyr": "Изаберите захтеве које желите да укључите. Можете изабрати један или више."
+  },
+  "brief.s4.title": {
+    "en": "About the author",
+    "sr_lat": "O autoru / organizaciji",
+    "sr_cyr": "О аутору / организацији"
+  },
+  "brief.field.org.label": {
+    "en": "Organisation / Collective / Name",
+    "sr_lat": "Organizacija / Kolektiv / Ime",
+    "sr_cyr": "Организација / Колектив / Име"
+  },
+  "brief.field.org.placeholder": {
+    "en": "e.g. NKSS, Collective XY, Ana Marković",
+    "sr_lat": "npr. NKSS, Kolektiv XY, Ana Marković",
+    "sr_cyr": "нпр. НКСС, Колектив XY, Ана Марковић"
+  },
+  "brief.field.name.label": {
+    "en": "Contact name (optional)",
+    "sr_lat": "Kontakt ime (opcionalno)",
+    "sr_cyr": "Контакт име (опционално)"
+  },
+  "brief.field.name.placeholder": {
+    "en": "Your name",
+    "sr_lat": "Vaše ime",
+    "sr_cyr": "Ваше име"
+  },
+  "brief.field.role.label": {
+    "en": "Role / title (optional)",
+    "sr_lat": "Uloga / titula (opcionalno)",
+    "sr_cyr": "Улога / титула (опционално)"
+  },
+  "brief.field.role.placeholder": {
+    "en": "e.g. President, Designer",
+    "sr_lat": "npr. Predsednica, Dizajnerka",
+    "sr_cyr": "нпр. Председница, Дизајнерка"
+  },
+  "brief.field.city.label": {
+    "en": "City (optional)",
+    "sr_lat": "Grad (opcionalno)",
+    "sr_cyr": "Град (опционално)"
+  },
+  "brief.field.city.placeholder": {
+    "en": "e.g. Belgrade",
+    "sr_lat": "npr. Beograd",
+    "sr_cyr": "нпр. Београд"
+  },
+  "brief.field.problem.label": {
+    "en": "Describe the problem affecting you",
+    "sr_lat": "Opišite problem koji vas pogađa",
+    "sr_cyr": "Опишите проблем који вас погађа"
+  },
+  "brief.field.problem.hint": {
+    "en": "You can use your own words or adapt the suggested text: AI systems use copyrighted creative works for training without permission, attribution or compensation — leaving independent creators without legal protection.",
+    "sr_lat": "Možete koristiti sopstvene reči ili prilagoditi predloženi tekst: AI sistemi koriste zaštićena kreativna dela za treniranje bez dozvole, atribucije ili naknade — ostavljajući nezavisne stvaraoce bez zakonske zaštite.",
+    "sr_cyr": "Можете користити сопствене речи или прилагодити предложени текст: AI системи користе заштићена креативна дела за тренирање без дозволе, атрибуције или накнаде — остављајући независне ствараоце без законске заштите."
+  },
+  "brief.field.problem.placeholder": {
+    "en": "Describe the specific problem affecting you as a creator...",
+    "sr_lat": "Opišite konkretan problem koji vas pogađa kao stvaraoca...",
+    "sr_cyr": "Опишите конкретан проблем који вас погађа као ствараоца..."
+  },
+  "brief.field.evidence.label": {
+    "en": "Evidence / statistics (optional)",
+    "sr_lat": "Dokazi / statistike (opcionalno)",
+    "sr_cyr": "Докази / статистике (опционално)"
+  },
+  "brief.field.evidence.hint": {
+    "en": "You may include your own examples or use data from the AIRS research (available in Chapter 2 of the Legal Guide).",
+    "sr_lat": "Možete uključiti sopstvene primere ili koristiti podatke iz AIRS istraživanja (dostupni u Poglavlju 2 Pravnog vodiča).",
+    "sr_cyr": "Можете укључити сопствене примере или користити податке из AIRS истраживања (доступни у Поглављу 2 Правног водича)."
+  },
+  "brief.field.evidence.placeholder": {
+    "en": "e.g. AIRS research (2025) shows that 78% of independent artists in Serbia are unaware of any protection tools...",
+    "sr_lat": "npr. AIRS istraživanje (2025) pokazuje da 78% nezavisnih umetnika u Srbiji nije svesno nijednog alata za zaštitu...",
+    "sr_cyr": "нпр. AIRS истраживање (2025) показује да 78% независних уметника у Србији није свесно ниједног алата за заштиту..."
+  },
+  "brief.demand.optout": {
+    "en": "<strong>Opt-out mechanisms</strong> — AI companies must provide clear options for creators to exclude their work from training datasets.",
+    "sr_lat": "<strong>Mehanizmi za odjavu</strong> — AI kompanije moraju pružiti jasne opcije isključivanja iz skupova podataka za treniranje.",
+    "sr_cyr": "<strong>Механизми за одјаву</strong> — AI компаније морају пружити јасне опције искључивања из скупова података за тренирање."
+  },
+  "brief.demand.attr": {
+    "en": "<strong>Attribution</strong> — Creators whose work is used for AI training must receive appropriate attribution.",
+    "sr_lat": "<strong>Atribucija</strong> — Stvaraoci čiji radovi se koriste za AI treniranje moraju primiti odgovarajuću atribuciju.",
+    "sr_cyr": "<strong>Атрибуција</strong> — Ствараоци чији радови се користе за AI тренирање морају примити одговарајућу атрибуцију."
+  },
+  "brief.demand.remun": {
+    "en": "<strong>Fair remuneration</strong> — Establish mechanisms to compensate creators whose work is used in commercial AI systems.",
+    "sr_lat": "<strong>Pravična naknada</strong> — Uspostaviti mehanizme za naknadu stvaraocima čiji radovi se koriste u komercijalnim AI sistemima.",
+    "sr_cyr": "<strong>Правична накнада</strong> — Успоставити механизме за накнаду ствараоцима чији радови се користе у комерцијалним AI системима."
+  },
+  "brief.demand.legalgap": {
+    "en": "<strong>Law update</strong> — Serbian copyright law must explicitly regulate the use of data for AI training.",
+    "sr_lat": "<strong>Ažuriranje zakona</strong> — Srpski zakon o autorskim pravima mora eksplicitno regulisati upotrebu podataka za AI treniranje.",
+    "sr_cyr": "<strong>Ажурирање закона</strong> — Српски закон о ауторским правима мора експлицитно регулисати употребу података за AI тренирање."
+  },
+  "brief.demand.collective": {
+    "en": "<strong>Collective licensing</strong> — Develop collective licensing frameworks in partnership with SOKOJ and creators' associations.",
+    "sr_lat": "<strong>Kolektivno licenciranje</strong> — Razviti okvire kolektivnog licenciranja u partnerstvu sa SOKOJ-em i udruženjima stvaralaca.",
+    "sr_cyr": "<strong>Колективно лиценцирање</strong> — Развити оквире колективног лиценцирања у партнерству са SOKOJ-ем и удружењима стваралаца."
+  },
+  "brief.field.about.label": {
+    "en": "Who are you? (2–4 sentences)",
+    "sr_lat": "Ko ste vi? (2–4 rečenice)",
+    "sr_cyr": "Ко сте ви? (2–4 реченице)"
+  },
+  "brief.field.about.placeholder": {
+    "en": "e.g. Independent musician with 10 years of experience, releasing music on the Serbian and international scene...",
+    "sr_lat": "npr. Nezavisni muzičar sa 10 godina iskustva, koji objavljuje muziku na srpskoj i međunarodnoj sceni...",
+    "sr_cyr": "нпр. Независни музичар са 10 година искуства, који објављује музику на српској и међународној сцени..."
+  },
+  "brief.field.signatories.label": {
+    "en": "Signatories (optional)",
+    "sr_lat": "Potpisnici (opcionalno)",
+    "sr_cyr": "Потписници (опционално)"
+  },
+  "brief.field.signatories.hint": {
+    "en": "Separate with commas or new lines.",
+    "sr_lat": "Odvojite zareze ili novim redovima.",
+    "sr_cyr": "Одвојите заrezima или новим редовима."
+  },
+  "brief.field.signatories.placeholder": {
+    "en": "Ana Marković, Marko Petrović, Jelena Đorđević...",
+    "sr_lat": "Ana Marković, Marko Petrović, Jelena Đorđević...",
+    "sr_cyr": "Ана Марковић, Марко Петровић, Јелена Ђорђевић..."
+  },
+  "brief.export.pdf": {
+    "en": "Export as PDF",
+    "sr_lat": "Izvezi kao PDF",
+    "sr_cyr": "Извези као PDF"
+  },
+  "brief.export.copy": {
+    "en": "Copy plain text",
+    "sr_lat": "Kopiraj kao tekst",
+    "sr_cyr": "Копирај као текст"
+  },
+  "brief.export.link": {
+    "en": "Copy shareable link",
+    "sr_lat": "Kopiraj link za deljenje",
+    "sr_cyr": "Копирај линк за дељење"
+  },
+  "brief.preview.label": {
+    "en": "Live preview",
+    "sr_lat": "Pregled uživo",
+    "sr_cyr": "Преглед уживо"
+  },
+  "brief.preview.empty": {
+    "en": "Fill in the fields on the left to see a preview of your document.",
+    "sr_lat": "Popunite polja s leve strane da biste videli pregled vašeg dokumenta.",
+    "sr_cyr": "Попуните поља с леве стране да бисте видели преглед вашег документа."
+  },
+  "tools.page.tag": {
+    "en": "Creator Protection Tools",
+    "sr_lat": "Alati za zaštitu stvaralaca",
+    "sr_cyr": "Алати за заштиту стваралаца"
+  },
+  "tools.page.title": {
+    "en": "Tools for protecting your creative work from AI",
+    "sr_lat": "Alati za zaštitu vaših kreativnih radova od AI",
+    "sr_cyr": "Алати за заштиту ваших креативних радова од AI"
+  },
+  "tools.page.lead": {
+    "en": "A practical list of tools for creator protection. Filter by category.",
+    "sr_lat": "Lista praktičnih alata za zaštitu stvaralaca. Filtrirajte po kategoriji.",
+    "sr_cyr": "Списак практичних алата за заштиту стваралаца. Филтрирајте по категорији."
+  },
+  "about.tag": {
+    "en": "About AIRS",
+    "sr_lat": "O AIRS-u",
+    "sr_cyr": "О AIRS-у"
+  },
+  "about.title": {
+    "en": "AI Rights Shield for Independent Artists and Cultural Scene",
+    "sr_lat": "AI Rights Shield za nezavisne umetnike i kulturnu scenu",
+    "sr_cyr": "AI Rights Shield за независне уметнике и културну сцену"
+  },
+  "about.lead": {
+    "en": "AIRS is a project of KreativaLab, a Belgrade-based civil society organisation focused on ethical technology integration in culture and creative industries.",
+    "sr_lat": "AIRS je projekat KreativaLab-a, beogradske organizacije civilnog društva fokusirane na etičku integraciju tehnologije u kulturu i kreativne industrije.",
+    "sr_cyr": "AIRS је пројекат KreativaLab-а, београдске организације цивилног друштва фокусиране на етичку интеграцију технологије у културу и креативне индустрије."
+  },
+  "about.h2.project": {
+    "en": "About the project",
+    "sr_lat": "O projektu",
+    "sr_cyr": "О пројекту"
+  },
+  "about.p1": {
+    "en": "AI Rights Shield for Independent Artists and Cultural Scene (AIRS) project is an innovative digital tool and awareness-raising campaign empowering independent artists, creative individuals and the cultural scene in Serbia and abroad. It navigates AI-generated threats to authorship rights, makes AI copyright misconduct more transparent, and provides greater right-to-work protection for the independent artist and creative sectors.",
+    "sr_lat": "AIRS štit prava za nezavisne umetnike i kulturnu scenu je inovativni digitalni alat i kampanja za podizanje svesti koja osnažuje nezavisne umetnike, kreativne pojedince i kulturnu scenu u Srbiji i inostranstvu. Projekat se bavi pretnjama autorskim pravima koje generiše veštačka inteligencija, čini kršenja autorskih prava zasnovanih na veštačkoj inteligenciji transparentnijim i pruža veću zaštitu prava na rad za nezavisne umetnike i kreativni sektor.",
+    "sr_cyr": "AIRS штит права за независне уметнике и културну сцену је иновативни дигитални алат и кампања за подизање свести која оснажује независне уметнике, креативне појединце и културну сцену у Србији и иностранству. Пројекат се бави претњама ауторским правима које генерише вештачка интелигенција, чини кршења ауторских права заснованих на вештачкој интелигенцији транспарентнијим и пружа већу заштиту права на рад за независне уметнике и креативни сектор."
+  },
+  "about.p2": {
+    "en": "The project builds digital literacy on Artificial Intelligence (AI), conducts risk assessments, and develops a user-friendly web app for rights monitoring, transparency and advocacy. This activity is supported by the CIVICUS Digital Democracy Initiative (DDI). AIRS empowers independent artists to defend their digital rights in the time of AI-driven threats.",
+    "sr_lat": "Projekat gradi digitalnu pismenost na veštačkoj inteligenciji (AI), sprovodi procene rizika i razvija veb aplikaciju jednostavnu za korišćenje za praćenje prava, transparentnost i zastupanje. Ovu aktivnost podržava CIVICUS Inicijativa za digitalnu demokratiju (DDI). AIRS osnažuje nezavisne umetnike da brane svoja digitalna prava u vreme pretnji izazvanih veštačkom inteligencijom.",
+    "sr_cyr": "Пројекат гради дигиталну писменост на вештачкој интелигенцији (АИ), спроводи процене ризика и развија веб апликацију једноставну за коришћење за праћење права, транспарентност и заступање. Ову активност подржава CIVICUS Иницијатива за дигиталну демократију (DDI). AIRS оснажује независне уметнике да бране своја дигитална права у време претњи изазваних вештачком интелигенцијом."
+  },
+  "about.h2.partners": {
+    "en": "Partners and donors",
+    "sr_lat": "Partneri i donatori",
+    "sr_cyr": "Партнери и донатори"
+  },
+  "about.h2.tools": {
+    "en": "Alternative tools and resources",
+    "sr_lat": "Alternativni alati i resursi",
+    "sr_cyr": "Алтернативни алати и ресурси"
+  },
+  "about.tools.p": {
+  "en": "AIRS is not the only tool that can help you. The following resources are free and useful for independent creators:",
+  "sr_lat": "AIRS nije jedini alat koji može da vam pomogne. Sledeći resursi su besplatni i korisni za nezavisne stvaraoce:",
+  "sr_cyr": "AIRS није једини алат који може да вам помогне. Следећи ресурси су бесплатни и корисни за независне ствараоце:"
+  },
+  "about.tools.li1": {
+  "en": "<strong><a href=\"https://haveibeentrained.com\" target=\"_blank\" rel=\"noopener\">Have I Been Trained?</a></strong> — Search whether your work appears in the LAION-5B dataset.",
+  "sr_lat": "<strong><a href=\"https://haveibeentrained.com\" target=\"_blank\" rel=\"noopener\">Have I Been Trained?</a></strong> — Pretražite da li se vaš rad nalazi u LAION-5B skupu podataka.",
+  "sr_cyr": "<strong><a href=\"https://haveibeentrained.com\" target=\"_blank\" rel=\"noopener\">Have I Been Trained?</a></strong> — Претражите да ли се ваш рад налази у LAION-5B скупу података."
+},
+"about.tools.li2": {
+  "en": "<strong><a href=\"https://spawning.ai\" target=\"_blank\" rel=\"noopener\">Spawning.ai</a></strong> — Register to opt out of future AI training datasets.",
+  "sr_lat": "<strong><a href=\"https://spawning.ai\" target=\"_blank\" rel=\"noopener\">Spawning.ai</a></strong> — Registrujte se za isključivanje iz budućih skupova podataka za AI treniranje.",
+  "sr_cyr": "<strong><a href=\"https://spawning.ai\" target=\"_blank\" rel=\"noopener\">Spawning.ai</a></strong> — Региструјте се за искључивање из будућих скупова података за AI тренирање."
+},
+"about.tools.li3": {
+  "en": "<strong><a href=\"https://fairlytrained.org\" target=\"_blank\" rel=\"noopener\">Fairly Trained</a></strong> — Certification for AI companies that train exclusively on licensed content.",
+  "sr_lat": "<strong><a href=\"https://fairlytrained.org\" target=\"_blank\" rel=\"noopener\">Fairly Trained</a></strong> — Sertifikacija za AI kompanije koje treniraju isključivo na licenciranom sadržaju.",
+  "sr_cyr": "<strong><a href=\"https://fairlytrained.org\" target=\"_blank\" rel=\"noopener\">Fairly Trained</a></strong> — Сертификација за AI компаније које тренирају искључиво на лиценцираном садржају."
+},
+"about.tools.li4": {
+  "en": "<strong><a href=\"https://glaze.cs.uchicago.edu\" target=\"_blank\" rel=\"noopener\">Glaze</a></strong> — Free tool that enables visual artists to protect their style from AI copying.",
+  "sr_lat": "<strong><a href=\"https://glaze.cs.uchicago.edu\" target=\"_blank\" rel=\"noopener\">Glaze</a></strong> — Besplatan alat koji vizuelnim umetnicima omogućava zaštitu stila od AI kopiranja.",
+  "sr_cyr": "<strong><a href=\"https://glaze.cs.uchicago.edu\" target=\"_blank\" rel=\"noopener\">Glaze</a></strong> — Бесплатан алат који визуелним уметницима омогућава заштиту стила од AI копирања."
+},
+"about.tools.li5": {
+  "en": "<strong><a href=\"https://nightshade.cs.uchicago.edu\" target=\"_blank\" rel=\"noopener\">Nightshade</a></strong> — Tool that actively disrupts AI training on your visual works.",
+  "sr_lat": "<strong><a href=\"https://nightshade.cs.uchicago.edu\" target=\"_blank\" rel=\"noopener\">Nightshade</a></strong> — Alat koji aktivno ometa AI treniranje na vašim vizuelnim radovima.",
+  "sr_cyr": "<strong><a href=\"https://nightshade.cs.uchicago.edu\" target=\"_blank\" rel=\"noopener\">Nightshade</a></strong> — Алат који активно омета AI тренирање на вашим визуелним радовима."
+},
+"about.tools.li6": {
+  "en": "<strong><a href=\"https://artistrightsalliance.com\" target=\"_blank\" rel=\"noopener\">Artist Rights Alliance</a></strong> — Resources and advocacy campaigns for artist rights in the AI context.",
+  "sr_lat": "<strong><a href=\"https://artistrightsalliance.com\" target=\"_blank\" rel=\"noopener\">Artist Rights Alliance</a></strong> — Resursi i zagovaračke kampanje za prava umetnika u AI kontekstu.",
+  "sr_cyr": "<strong><a href=\"https://artistrightsalliance.com\" target=\"_blank\" rel=\"noopener\">Artist Rights Alliance</a></strong> — Ресурси и заговарачке кампање за права уметника у AI контексту."
+},
+  "about.h2.license": {
+    "en": "Licence and open source",
+    "sr_lat": "Licenca i otvoreni kod",
+    "sr_cyr": "Лиценца и отворени код"
+  },
+  "about.license.title": {
+  "en": "Open source",
+  "sr_lat": "Open source",
+  "sr_cyr": "Open source"
+},
+"about.license.body": {
+  "en": "All content in this application is available under the <strong>CC BY 4.0</strong> licence — freely reproduce, adapt and share it with attribution to AIRS / KreativaLab. The source code is available under the <strong>MIT licence</strong> on <a href=\"https://github.com/kreativalab/airs-app\" target=\"_blank\" rel=\"noopener\">GitHub</a>.",
+  "sr_lat": "Sav sadržaj ove aplikacije je dostupan pod licencom <strong>CC BY 4.0</strong> — slobodno ga reprodukujte, prilagođavajte i delite uz atribuciju AIRS / KreativaLab. Izvorni kod je dostupan pod <strong>MIT licencom</strong> na <a href=\"https://github.com/kreativalab/airs-app\" target=\"_blank\" rel=\"noopener\">GitHub-u</a>.",
+  "sr_cyr": "Сав садржај ове апликације је доступан под лиценцом <strong>CC BY 4.0</strong> — слободно га репродукујте, прилагођавајте и делите уз атрибуцију AIRS / KreativaLab. Изворни код је доступан под <strong>MIT лиценцом</strong> на <a href=\"https://github.com/kreativalab/airs-app\" target=\"_blank\" rel=\"noopener\">GitHub-у</a>."
+},
+  "about.h2.contact": {
+    "en": "Contact",
+    "sr_lat": "Kontakt",
+    "sr_cyr": "Контакт"
+  },
+  "about.contact.p": {
+  "en": "For questions, corrections or collaboration proposals: <a href=\"mailto:airs@kreativalab.org\">airs@kreativalab.org</a>",
+  "sr_lat": "Za pitanja, ispravke ili predloge za saradnju: <a href=\"mailto:airs@kreativalab.org\">airs@kreativalab.org</a>",
+  "sr_cyr": "За питања, исправке или предлоге за сарадњу: <a href=\"mailto:airs@kreativalab.org\">airs@kreativalab.org</a>"
+  },
+  "legal.tag": {
+    "en": "Legal and transparency",
+    "sr_lat": "Pravno i transparentnost",
+    "sr_cyr": "Правно и транспарентност"
+  },
+  "legal.title": {
+    "en": "Plain language, privacy and terms of use",
+    "sr_lat": "Jednostavan jezik, privatnost i uslovi korišćenja",
+    "sr_cyr": "Једноставан језик, приватност и услови коришћења"
+  },
+  "legal.h2.plain": {
+    "en": "Plain language standard",
+    "sr_lat": "Standard jednostavnog jezika",
+    "sr_cyr": "Стандард једноставног језика"
+  },
+  "legal.h2.privacy": {
+    "en": "Privacy policy",
+    "sr_lat": "Politika privatnosti",
+    "sr_cyr": "Политика приватности"
+  },
+  "legal.h2.terms": {
+    "en": "Terms of use",
+    "sr_lat": "Uslovi korišćenja",
+    "sr_cyr": "Услови коришћења"
+  },
+  "legal.plain.p1": {
+  "en": "The AIRS application uses <strong>plain language as a core design requirement</strong>, not an afterthought. All content — in the Legal Guide, the Self-Assessment Tool and the Policy Brief Template — has been written and reviewed to be understood by independent artists and creative workers without legal or technical training.",
+  "sr_lat": "AIRS aplikacija koristi <strong>jednostavan jezik kao osnovno zahtev dizajna</strong>, a ne naknadnu dopunu. Sav sadržaj — u Pravnom vodiču, Alatu za samoprocenu i Predlošku za Policy Brief — napisan je i pregledan da bi ga razumeli nezavisni umetnici i kreativni radnici koji nemaju pravno ili tehničko obrazovanje.",
+  "sr_cyr": "AIRS апликација користи <strong>једноставан језик као основни захтев дизајна</strong>, а не накнадну допуну. Сав садржај — у Правном водичу, Алату за самопроцену и Предлошку за Policy Brief — написан је и прегледан да би га разумели независни уметници и креативни радници који немају правно или техничко образовање."
+},
+"legal.plain.p2": {
+  "en": "Plain language standard means:",
+  "sr_lat": "Standard jednostavnog jezika znači:",
+  "sr_cyr": "Стандард једноставног језика значи:"
+},
+"legal.plain.li1": {
+  "en": "Reading level calibrated to B1–B2 in Serbian and English",
+  "sr_lat": "Nivo čitanja kalibrisan na B1–B2 na srpskom i engleskom",
+  "sr_cyr": "Ниво читања калибрисан на B1–B2 на српском и енглеском"
+},
+"legal.plain.li2": {
+  "en": "Legal terms explained in plain language at first occurrence, without assumed knowledge",
+  "sr_lat": "Pravni termini objašnjeni jednostavnim jezikom pri prvom pojavljivanju, bez pretpostavljanja",
+  "sr_cyr": "Правни термини објашњениједноставним језиком при првом појављивању, без претпостављања"
+},
+"legal.plain.li3": {
+  "en": "Every legal concept accompanied by a concrete implication for the creator (\"what this means for you\")",
+  "sr_lat": "Svaki pravni koncept praćen konkretnom implikacijom za stvaraoca (\"šta ovo znači za vas\")",
+  "sr_cyr": "Сваки правни концепт праћен конкретном импликацијом за ствараоца (шта ово значи за вас)"
+},
+"legal.plain.li4": {
+  "en": "Self-assessment questions written as everyday scenarios, not legal hypotheticals",
+  "sr_lat": "Pitanja za samoprocenu napisana kao svakodnevni scenariji, ne kao pravne hipoteze",
+  "sr_cyr": "Питања за самопроцену написана као свакодневни сценарији, не као правне хипотезе"
+},
+"legal.plain.li5": {
+  "en": "The Serbian text is not a literal translation of the English — it has been independently reviewed for accessibility",
+  "sr_lat": "Srpski tekst nije doslovni prevod engleskog — nezavisno je pregledano radi pristupačnosti",
+  "sr_cyr": "Српски текст није дословни превод енглеског — независно је прегледано ради приступачности"
+},
+"legal.plain.feedback.title": {
+  "en": "Feedback",
+  "sr_lat": "Povratne informacije",
+  "sr_cyr": "Повратне информације"
+},
+"legal.plain.feedback.body": {
+  "en": "Did you find something hard to understand? Tell us: <a href=\"mailto:airs@kreativalab.org\">airs@kreativalab.org</a>",
+  "sr_lat": "Da li ste pronašli nešto teško za razumevanje? Recite nam: <a href=\"mailto:airs@kreativalab.org\">airs@kreativalab.org</a>",
+  "sr_cyr": "Да ли сте пронашли нешто тешко за разумевање? Реците нам: <a href=\"mailto:airs@kreativalab.org\">airs@kreativalab.org</a>"
+},
+"legal.privacy.p1": {
+  "en": "The AIRS application is designed with privacy as a foundation.",
+  "sr_lat": "AIRS aplikacija je dizajnirana sa privatnošću kao osnovom.",
+  "sr_cyr": "AIRS апликација је дизајнирана са приватношћу као основом."
+},
+"legal.privacy.li1": {
+  "en": "<strong>What we collect:</strong> Nothing that identifies you. Your language choice is stored in your browser's localStorage — it never leaves your device.",
+  "sr_lat": "<strong>Šta prikupljamo:</strong> Ništa što vas identifikuje. Vaš izbor jezika čuva se u localStorage vašeg pretraživača — nikada ne napušta vaš uređaj.",
+  "sr_cyr": "<strong>Шта прикупљамо:</strong> Ништа што вас идентификује. Ваш избор језика чува се у localStorage вашег претраживача — никада не напушта ваш уређај."
+},
+"legal.privacy.li2": {
+  "en": "<strong>Analytics:</strong> We use cookie-free, personal-data-free analytics (Plausible or Umami). IP addresses are not stored. No cookies are set.",
+  "sr_lat": "<strong>Analitika:</strong> Koristimo analitiku bez kolačića i bez ličnih podataka (Plausible ili Umami). IP adrese se ne čuvaju. Kolačići se ne postavljaju.",
+  "sr_cyr": "<strong>Аналитика:</strong> Користимо аналитику без колачића и без личних података (Plausible или Umami). IP адресе се не чувају. Колачићи се не постављају."
+},
+"legal.privacy.li3": {
+  "en": "<strong>Self-assessment tool:</strong> All your answers are processed exclusively in your browser. Nothing is sent to our server. We cannot see, store or access your answers.",
+  "sr_lat": "<strong>Alat za samoprocenu:</strong> Svi vaši odgovori obrađuju se isključivo u vašem pretraživaču. Ništa se ne šalje na naš server. Ne možemo videti, čuvati ni pristupati vašim odgovorima.",
+  "sr_cyr": "<strong>Алат за самопроцену:</strong> Сви ваши одговори обрађују се искључиво у вашем претраживачу. Ништа се не шаље на наш сервер. Не можемо видети, чувати ни приступати вашим одговорима."
+},
+"legal.privacy.li4": {
+  "en": "<strong>Third-party services:</strong> The application does not embed tracking scripts, advertising networks or social media widgets.",
+  "sr_lat": "<strong>Usluge trećih lica:</strong> Aplikacija ne ugrađuje skripte za praćenje, reklamne mreže niti vidžete društvenih mreža.",
+  "sr_cyr": "<strong>Услуге трећих лица:</strong> Апликација не уграђује скрипте за праћење, рекламне мреже нити виџете друштвених мрежа."
+},
+"legal.privacy.li5": {
+  "en": "<strong>Contact:</strong> airs@kreativalab.org",
+  "sr_lat": "<strong>Kontakt:</strong> airs@kreativalab.org",
+  "sr_cyr": "<strong>Контакт:</strong> airs@kreativalab.org"
+},
+"legal.terms.li1": {
+  "en": "<strong>What this tool is:</strong> AIRS provides general information and practical tools. It is not a law firm and does not provide legal advice. Nothing in this application should be treated as a legal opinion on your specific situation.",
+  "sr_lat": "<strong>Šta je ovaj alat:</strong> AIRS pruža opšte informacije i praktične alate. Nije advokatska kancelarija i ne pruža pravne savete. Ništa u ovoj aplikaciji ne treba tretirati kao pravno mišljenje o vašoj specifičnoj situaciji.",
+  "sr_cyr": "<strong>Шта је овај алат:</strong> AIRS пружа опште информације и практичне алате. Није адвокатска канцеларија и не пружа правне савете. Ништа у овој апликацији не треба третирати као правно мишљење о вашој специфичној ситуацији."
+},
+"legal.terms.li2": {
+  "en": "<strong>What this tool is not:</strong> The Legal Guide describes the law as it stood on the date indicated in the guide. Law changes — always verify the current version of the law before taking action.",
+  "sr_lat": "<strong>Šta ovaj alat nije:</strong> Pravni vodič opisuje zakon kakav je bio na datum naveden u vodiču. Zakon se menja — uvek proverite aktuelnu verziju zakona pre preduzimanja akcija.",
+  "sr_cyr": "<strong>Шта овај алат није:</strong> Правни водич описује закон какав је био на датум наведен у водичу. Закон се мења — увек проверите актуелну верзију закона пре предузимања акција."
+},
+"legal.terms.li3": {
+  "en": "<strong>Liability:</strong> KreativaLab provides this tool in good faith for the public benefit. We are not responsible for decisions made on the basis of content in this application.",
+  "sr_lat": "<strong>Odgovornost:</strong> KreativaLab pruža ovaj alat u dobroj nameri za javnu korist. Nismo odgovorni za odluke donete na osnovu sadržaja u ovoj aplikaciji.",
+  "sr_cyr": "<strong>Одговорност:</strong> KreativaLab пружа овај алат у доброј намери за јавну корист. Нисмо одговорни за одлуке донете на основу садржаја у овој апликацији."
+},
+"legal.terms.li4": {
+  "en": "<strong>Content licence:</strong> All written content in this application is published under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).",
+  "sr_lat": "<strong>Licenca sadržaja:</strong> Sav pisani sadržaj u ovoj aplikaciji objavljen je pod licencom Creative Commons Attribution 4.0 International (CC BY 4.0).",
+  "sr_cyr": "<strong>Лиценца садржаја:</strong> Сав писани садржај у овој апликацији објављен је под лиценцом Creative Commons Attribution 4.0 International (CC BY 4.0)."
+},
+"legal.terms.li5": {
+  "en": "<strong>Code licence:</strong> The source code of this application is published under the MIT licence. Feel free to use, copy, modify and distribute it.",
+  "sr_lat": "<strong>Licenca koda:</strong> Izvorni kod ove aplikacije objavljen je pod MIT licencom. Slobodno ga koristite, kopirajte, modifikujte i distribuirajte.",
+  "sr_cyr": "<strong>Лиценца кода:</strong> Изворни код ове апликације објављен је под MIT лиценцом. Слободно га користите, копирајте, модификујте и дистрибуирајте."
+},
+"legal.terms.li6": {
+  "en": "<strong>External links:</strong> The application links to external resources. We do not control those sites and are not responsible for their content.",
+  "sr_lat": "<strong>Spoljni linkovi:</strong> Aplikacija linkuje ka spoljnim resursima. Ne kontrolišemo te sajtove i nismo odgovorni za njihov sadržaj.",
+  "sr_cyr": "<strong>Спољни линкови:</strong> Апликација линкује ка спољним ресурсима. Не контролишемо те сајтове и нисмо одговорни за њихов садржај."
+},
+  "footer.tagline": {
+    "en": "Practical tools for independent creators navigating AI copyright risks.",
+    "sr_lat": "Praktični alati za nezavisne stvaraoce koji se suočavaju sa AI autorskim rizicima.",
+    "sr_cyr": "Практични алати за независне ствараоце који се суочавају са AI ауторским ризицима."
+  },
+  "footer.modules": {
+    "en": "Modules",
+    "sr_lat": "Moduli",
+    "sr_cyr": "Модули"
+  },
+  "footer.project": {
+    "en": "Project",
+    "sr_lat": "Projekat",
+    "sr_cyr": "Пројекат"
+  },
+  "footer.legal": {
+    "en": "Legal",
+    "sr_lat": "Pravni tekst",
+    "sr_cyr": "Правни текст"
+  },
+  "footer.privacy": {
+    "en": "Privacy Policy",
+    "sr_lat": "Politika privatnosti",
+    "sr_cyr": "Политика приватности"
+  },
+  "footer.terms": {
+    "en": "Terms of Use",
+    "sr_lat": "Uslovi korišćenja",
+    "sr_cyr": "Услови коришћења"
+  },
+  "footer.plain": {
+    "en": "Plain Language",
+    "sr_lat": "Jednostavan jezik",
+    "sr_cyr": "Једноставан језик"
+  },
+  "footer.github": {
+    "en": "GitHub (MIT)",
+    "sr_lat": "GitHub (MIT)",
+    "sr_cyr": "GitHub (MIT)"
+  },
+  "footer.copy": {
+    "en": "Content: CC BY 4.0 · KreativaLab · Code: MIT",
+    "sr_lat": "Sadržaj: CC BY 4.0 · KreativaLab · Kod: MIT",
+    "sr_cyr": "Садржај: CC BY 4.0 · KreativaLab · Код: MIT"
+  }
+}

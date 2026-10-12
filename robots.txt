@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://airs-app.kreativalab.org/sitemap.xml

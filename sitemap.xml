@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home -->
+  <url>
+    <loc>https://airs-app.kreativalab.org/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://airs-app.kreativalab.org/en/"/>
+    <xhtml:link rel="alternate" hreflang="sr"      href="https://airs-app.kreativalab.org/sr-lat/"/>
+    <xhtml:link rel="alternate" hreflang="sr-Cyrl" href="https://airs-app.kreativalab.org/sr-cyr/"/>
+    <changefreq>monthly</changefreq><priority>1.0</priority>
+  </url>
+
+  <!-- Legal Guide -->
+  <url>
+    <loc>https://airs-app.kreativalab.org/en/guide</loc>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://airs-app.kreativalab.org/en/guide"/>
+    <xhtml:link rel="alternate" hreflang="sr"      href="https://airs-app.kreativalab.org/sr-lat/guide"/>
+    <xhtml:link rel="alternate" hreflang="sr-Cyrl" href="https://airs-app.kreativalab.org/sr-cyr/guide"/>
+    <changefreq>monthly</changefreq><priority>0.9</priority>
+  </url>
+
+  <!-- Self-Assessment -->
+  <url>
+    <loc>https://airs-app.kreativalab.org/en/assessment</loc>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://airs-app.kreativalab.org/en/assessment"/>
+    <xhtml:link rel="alternate" hreflang="sr"      href="https://airs-app.kreativalab.org/sr-lat/assessment"/>
+    <xhtml:link rel="alternate" hreflang="sr-Cyrl" href="https://airs-app.kreativalab.org/sr-cyr/assessment"/>
+    <changefreq>monthly</changefreq><priority>0.9</priority>
+  </url>
+
+  <!-- Policy Brief -->
+  <url>
+    <loc>https://airs-app.kreativalab.org/en/brief</loc>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://airs-app.kreativalab.org/en/brief"/>
+    <xhtml:link rel="alternate" hreflang="sr"      href="https://airs-app.kreativalab.org/sr-lat/brief"/>
+    <xhtml:link rel="alternate" hreflang="sr-Cyrl" href="https://airs-app.kreativalab.org/sr-cyr/brief"/>
+    <changefreq>monthly</changefreq><priority>0.7</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://airs-app.kreativalab.org/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://airs-app.kreativalab.org/en/about"/>
+    <xhtml:link rel="alternate" hreflang="sr"      href="https://airs-app.kreativalab.org/sr-lat/about"/>
+    <xhtml:link rel="alternate" hreflang="sr-Cyrl" href="https://airs-app.kreativalab.org/sr-cyr/about"/>
+    <changefreq>monthly</changefreq><priority>0.5</priority>
+  </url>
+
+  <!-- Legal & Transparency -->
+  <url>
+    <loc>https://airs-app.kreativalab.org/en/legal</loc>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://airs-app.kreativalab.org/en/legal"/>
+    <xhtml:link rel="alternate" hreflang="sr"      href="https://airs-app.kreativalab.org/sr-lat/legal"/>
+    <xhtml:link rel="alternate" hreflang="sr-Cyrl" href="https://airs-app.kreativalab.org/sr-cyr/legal"/>
+    <changefreq>yearly</changefreq><priority>0.3</priority>
+  </url>
+
+</urlset>

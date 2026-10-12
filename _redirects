@@ -1,0 +1,11 @@
+# AIRS — Netlify redirect rules
+# History API SPA routing: all paths serve index.html
+# Language detection happens in JavaScript
+
+# Language root redirects
+/en      /en/    301
+/sr-lat  /sr-lat/ 301
+/sr-cyr  /sr-cyr/ 301
+
+# SPA catch-all — must be last
+/*  /index.html  200
