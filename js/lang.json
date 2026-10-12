@@ -865,9 +865,9 @@
   "sr_cyr": "Open source"
 },
 "about.license.body": {
-  "en": "All content in this application is available under the <strong>CC BY 4.0</strong> licence — freely reproduce, adapt and share it with attribution to AIRS / KreativaLab. The source code is available under the <strong>MIT licence</strong> on <a href=\"https://github.com/kreativalab/airs-app\" target=\"_blank\" rel=\"noopener\">GitHub</a>.",
-  "sr_lat": "Sav sadržaj ove aplikacije je dostupan pod licencom <strong>CC BY 4.0</strong> — slobodno ga reprodukujte, prilagođavajte i delite uz atribuciju AIRS / KreativaLab. Izvorni kod je dostupan pod <strong>MIT licencom</strong> na <a href=\"https://github.com/kreativalab/airs-app\" target=\"_blank\" rel=\"noopener\">GitHub-u</a>.",
-  "sr_cyr": "Сав садржај ове апликације је доступан под лиценцом <strong>CC BY 4.0</strong> — слободно га репродукујте, прилагођавајте и делите уз атрибуцију AIRS / KreativaLab. Изворни код је доступан под <strong>MIT лиценцом</strong> на <a href=\"https://github.com/kreativalab/airs-app\" target=\"_blank\" rel=\"noopener\">GitHub-у</a>."
+  "en": "All content in this application is available under the <strong>CC BY 4.0</strong> licence — freely reproduce, adapt and share it with attribution to AIRS / KreativaLab. The source code is available under the <strong>MIT licence</strong> on <a href=\"https://github.com/kreativnalab/airs-app\" target=\"_blank\" rel=\"noopener\">GitHub</a>.",
+  "sr_lat": "Sav sadržaj ove aplikacije je dostupan pod licencom <strong>CC BY 4.0</strong> — slobodno ga reprodukujte, prilagođavajte i delite uz atribuciju AIRS / KreativaLab. Izvorni kod je dostupan pod <strong>MIT licencom</strong> na <a href=\"https://github.com/kreativnalab/airs-app\" target=\"_blank\" rel=\"noopener\">GitHub-u</a>.",
+  "sr_cyr": "Сав садржај ове апликације је доступан под лиценцом <strong>CC BY 4.0</strong> — слободно га репродукујте, прилагођавајте и делите уз атрибуцију AIRS / KreativaLab. Изворни код је доступан под <strong>MIT лиценцом</strong> на <a href=\"https://github.com/kreativnalab/airs-app\" target=\"_blank\" rel=\"noopener\">GitHub-у</a>."
 },
   "about.h2.contact": {
     "en": "Contact",
