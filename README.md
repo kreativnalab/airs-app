@@ -10,7 +10,7 @@ License: Content CC BY 4.0 · Code MIT
 
 ## What it is
 
-AIRS is a free, browser-based tool for independent artists, musicians, writers and designers in Serbia dealing with AI and copyright. It includes:
+AIRS is a free, browser-based tool for independent artists, musicians, writers and designers in Serbia and abroad, dealing with AI and copyright. It includes:
 
 - **Legal Guide** — plain-language overview of AI and copyright law in Serbia
 - **Self-Assessment Tool** — interactive questionnaire to identify your risk profile
@@ -18,7 +18,7 @@ AIRS is a free, browser-based tool for independent artists, musicians, writers a
 - **Tools Directory** — curated list of free tools for independent creators
 - **Legal & Transparency** — plain language standard, privacy policy, terms of use
 
-Available in three languages: Serbian (Latin), Serbian (Cyrillic), English.
+Available in two languages: Serbian (Latin and Cyrillic scripts), English.
 
 ---
 
@@ -71,7 +71,7 @@ See `docs/CONTENT_EDITING.md` for instructions on editing text, and `docs/TRANSL
 
 ## Credits
 
-Developed by KreativaLab as part of the AIRS project, supported by Digital Spark / DDI.
+Developed by KreativaLab as part of the AIRS project, supported by Digital Spark / DDI and ENCC Up Grants 2026.
 
 Logo and visual identity: KreativaLab  
 Legal content review: [pending]
